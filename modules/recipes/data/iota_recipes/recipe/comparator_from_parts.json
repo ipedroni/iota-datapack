@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "RRR",
+    "SSS",
+    "BQB"
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "S": "minecraft:stick",
+    "B": "minecraft:stone",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "id": "minecraft:comparator",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+scoreboard players set @s ap_invempty 0
+execute unless items entity @s container.0 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.1 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.2 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.3 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.4 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.5 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.6 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.7 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.8 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.9 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.10 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.11 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.12 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.13 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.14 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.15 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.16 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.17 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.18 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.19 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.20 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.21 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.22 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.23 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.24 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.25 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.26 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.27 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.28 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.29 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.30 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.31 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.32 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.33 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.34 * run scoreboard players add @s ap_invempty 1
+execute unless items entity @s container.35 * run scoreboard players add @s ap_invempty 1
+execute if score @s ap_invempty matches 0 run tellraw @s {"text":"[ORBE TEST] Inventory full (36/36 slots occupied).","color":"green"}
+execute unless score @s ap_invempty matches 0 run tellraw @s [{"text":"[ORBE TEST] Empty slots: ","color":"yellow"},{"score":{"name":"@s","objective":"ap_invempty"},"color":"white"}]

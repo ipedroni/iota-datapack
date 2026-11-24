@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 0.0001
+          },
+          "blocked": false,
+          "type": {
+            "source_entity": {
+              "type": "#iota_exp_tool_mastery:hostile_attackers"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "iota_exp_tool_mastery:progress/armor_hit"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "TTT",
+    "BQB"
+  ],
+  "key": {
+    "T": "minecraft:redstone_torch",
+    "B": "minecraft:stone",
+    "Q": "minecraft:quartz"
+  },
+  "result": {
+    "id": "minecraft:comparator",
+    "count": 1
+  }
+}

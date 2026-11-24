@@ -1,0 +1,1 @@
+$execute unless data storage iota_tool_mastery:progress stack.components."minecraft:custom_data".iota_mastery{shield_hand:$(shield_hand)} run item modify entity @s $(slot) iota_exp_tool_mastery:shield_hand

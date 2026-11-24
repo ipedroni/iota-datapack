@@ -1,0 +1,4 @@
+execute if items entity @s weapon.mainhand minecraft:diamond_pickaxe[minecraft:custom_data~{iota_broken_poc:{enabled:1b,broken:0b}},minecraft:damage~{durability:{max:2}}] run function iota_exp_tool_mastery:broken/break_mainhand
+execute if items entity @s weapon.mainhand minecraft:diamond_pickaxe[minecraft:custom_data~{iota_broken_poc:{enabled:1b,broken:1b}},minecraft:damage~{durability:{min:3}}] run function iota_exp_tool_mastery:broken/restore_mainhand
+execute if items entity @s weapon.offhand minecraft:diamond_pickaxe[minecraft:custom_data~{iota_broken_poc:{enabled:1b,broken:0b}},minecraft:damage~{durability:{max:2}}] run function iota_exp_tool_mastery:broken/break_offhand
+execute if items entity @s weapon.offhand minecraft:diamond_pickaxe[minecraft:custom_data~{iota_broken_poc:{enabled:1b,broken:1b}},minecraft:damage~{durability:{min:3}}] run function iota_exp_tool_mastery:broken/restore_offhand

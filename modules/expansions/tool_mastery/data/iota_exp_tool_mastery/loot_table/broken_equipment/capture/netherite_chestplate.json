@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{iota_break_capture:{item:\"minecraft:netherite_chestplate\",name:\"netherite_chestplate\",slot:\"armor.chest\",source:\"equipment.chest\"}}"
+            },
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "equipment.chest",
+                  "target": "iota_break_capture.original",
+                  "op": "replace"
+                },
+                {
+                  "source": "UUID",
+                  "target": "iota_break_capture.owner",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

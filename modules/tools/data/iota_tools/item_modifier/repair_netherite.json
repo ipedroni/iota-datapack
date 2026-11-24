@@ -1,0 +1,8 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:repairable": {
+      "items": "#iota_tools:repairs_netherite_equipment"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "iota_tool_mastery:progress"
+  },
+  "ops": [
+    {
+      "source": "id",
+      "target": "iota_mastery.id",
+      "op": "replace"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_components",
+  "components": {
+    "minecraft:note_block_sound": "iota_trades_qual:other",
+    "minecraft:map_color": 1091328
+  }
+}

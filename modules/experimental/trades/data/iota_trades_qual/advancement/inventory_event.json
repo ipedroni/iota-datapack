@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "scores": {
+            "iota_qbusy": 0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "iota_trades_qual:inventory_event"
+  }
+}

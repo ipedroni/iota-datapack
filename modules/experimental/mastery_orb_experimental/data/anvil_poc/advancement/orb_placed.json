@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "head": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:player_head"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "anvil_poc:orb_placed"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "description": {
+    "text": "Iota Durability Guard",
+    "color": "dark_gray"
+  },
+  "supported_items": "minecraft:diamond_pickaxe",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0
+        },
+        "requirements": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:diamond_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "iota_broken_poc": {
+                  "enabled": true
+                }
+              },
+              "minecraft:damage": {
+                "durability": {
+                  "max": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "iota_tool_mastery:progress"
+  },
+  "ops": [
+    {
+      "source": "shield_hand",
+      "target": "iota_mastery.shield_hand",
+      "op": "replace"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+function iota_exp_magical_discovery:world_status

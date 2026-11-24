@@ -1,0 +1,1 @@
+$item modify entity @s $(slot) [{function:"minecraft:set_components",components:{"minecraft:blocks_attacks":$(blocking)}},{function:"minecraft:copy_custom_data",source:{type:"minecraft:storage",source:"iota_tool_mastery:progress"},ops:[{source:"shield_base",target:"iota_mastery.shield_base",op:"replace"},{source:"shield_rank",target:"iota_mastery.shield_rank",op:"replace"}]}]

@@ -1,0 +1,7 @@
+{
+  "function": "minecraft:set_enchantments",
+  "enchantments": {
+    "iota_exp_tool_mastery:broken_equipment/guard": 0
+  },
+  "add": false
+}

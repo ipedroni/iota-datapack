@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:wheat" }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "iota_recipes:wheat_to_seeds"
+      }
+    }
+  },
+  "requirements": [
+    ["has_wheat", "has_recipe"]
+  ],
+  "rewards": {
+    "recipes": ["iota_recipes:wheat_to_seeds"]
+  }
+}

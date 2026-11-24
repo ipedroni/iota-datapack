@@ -1,0 +1,19 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:tool": {
+        "rules": [],
+        "default_mining_speed": 0,
+        "damage_per_block": 0
+      },
+      "minecraft:weapon": {
+        "item_damage_per_attack": 0
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{iota_broken_poc:{broken:1b}}"
+  }
+]

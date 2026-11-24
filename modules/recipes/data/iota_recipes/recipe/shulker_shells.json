@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ATA",
+    "TET",
+    "ATA"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "T": "minecraft:turtle_scute",
+    "E": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "minecraft:shulker_shell",
+    "count": 2
+  }
+}

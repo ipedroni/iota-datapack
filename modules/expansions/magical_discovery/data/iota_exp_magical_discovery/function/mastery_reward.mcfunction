@@ -1,0 +1,1 @@
+function iota_exp_magical_discovery:record_mastery with storage iota_tool_mastery:progress

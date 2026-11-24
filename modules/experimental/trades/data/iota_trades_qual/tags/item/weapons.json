@@ -1,0 +1,18 @@
+{
+  "values": [
+    "minecraft:wooden_sword",
+    "minecraft:wooden_spear",
+    "minecraft:stone_sword",
+    "minecraft:stone_spear",
+    "minecraft:copper_sword",
+    "minecraft:copper_spear",
+    "minecraft:iron_sword",
+    "minecraft:iron_spear",
+    "minecraft:golden_sword",
+    "minecraft:golden_spear",
+    "minecraft:diamond_sword",
+    "minecraft:diamond_spear",
+    "minecraft:netherite_sword",
+    "minecraft:netherite_spear"
+  ]
+}

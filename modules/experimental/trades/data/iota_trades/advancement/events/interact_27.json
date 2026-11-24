@@ -1,0 +1,1 @@
+{"criteria": {"event": {"trigger": "minecraft:player_interacted_with_entity", "conditions": {"entity": {"type": "minecraft:villager", "nbt": "{Tags:[\"iota_trades_id.27\"]}"}}}}, "rewards": {"function": "iota_trades:events/interact_27"}}

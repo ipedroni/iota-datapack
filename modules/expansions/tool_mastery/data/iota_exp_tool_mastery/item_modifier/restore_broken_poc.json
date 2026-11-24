@@ -1,0 +1,27 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:incorrect_for_diamond_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "correct_for_drops": true,
+            "speed": 8
+          }
+        ]
+      },
+      "minecraft:weapon": {
+        "item_damage_per_attack": 2
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": "{iota_broken_poc:{broken:0b}}"
+  }
+]

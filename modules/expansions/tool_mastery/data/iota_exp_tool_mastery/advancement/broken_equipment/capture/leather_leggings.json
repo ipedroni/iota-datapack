@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "fatal": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_leggings"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "iota_exp_tool_mastery:broken_equipment/capture/leather_leggings"
+    ],
+    "function": "iota_exp_tool_mastery:broken_equipment/capture/leather_leggings"
+  }
+}

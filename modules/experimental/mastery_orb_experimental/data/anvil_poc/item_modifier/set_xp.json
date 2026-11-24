@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "anvil_poc:runtime"
+  },
+  "ops": [
+    {
+      "source": "xp",
+      "target": "anvil_poc.xp",
+      "op": "replace"
+    }
+  ]
+}

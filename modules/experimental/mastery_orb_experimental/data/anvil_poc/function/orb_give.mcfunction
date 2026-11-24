@@ -1,0 +1,2 @@
+# v3.4: SNBT text components and same blue orb texture as v3.0.
+give @s minecraft:player_head[minecraft:profile={properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFhMTExZWMxMTAyYzQwYzAyZDFkNDBmNDdlNjA5Mzg1MTIzOTNlOWRkYWZlZmQ1MDI4ZDJkM2EyMmJmNTE4ZSJ9fX0="}]},minecraft:item_name={text:"Orbe de Maestria (POC)",color:"aqua",italic:false},minecraft:lore=[{text:"Coloque sobre uma Anvil",color:"gray",italic:false}]] 1

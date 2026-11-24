@@ -1,0 +1,17 @@
+$function iota_trades:catalog/trade_index {id:$(id),index:0}
+$function iota_trades:catalog/trade_index {id:$(id),index:1}
+$function iota_trades:catalog/trade_index {id:$(id),index:2}
+$function iota_trades:catalog/trade_index {id:$(id),index:3}
+$function iota_trades:catalog/trade_index {id:$(id),index:4}
+$function iota_trades:catalog/trade_index {id:$(id),index:5}
+$function iota_trades:catalog/trade_index {id:$(id),index:6}
+$function iota_trades:catalog/trade_index {id:$(id),index:7}
+$function iota_trades:catalog/trade_index {id:$(id),index:8}
+$function iota_trades:catalog/trade_index {id:$(id),index:9}
+$function iota_trades:catalog/trade_index {id:$(id),index:10}
+$function iota_trades:catalog/trade_index {id:$(id),index:11}
+$function iota_trades:catalog/trade_index {id:$(id),index:12}
+$function iota_trades:catalog/trade_index {id:$(id),index:13}
+$function iota_trades:catalog/trade_index {id:$(id),index:14}
+$function iota_trades:catalog/trade_index {id:$(id),index:15}
+$function iota_trades:catalog/trade_index {id:$(id),index:16}

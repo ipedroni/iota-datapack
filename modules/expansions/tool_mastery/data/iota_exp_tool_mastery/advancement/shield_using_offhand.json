@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "using": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shield",
+          "predicates": {
+            "minecraft:custom_data": "{iota_mastery:{shield_hand:2b}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "iota_exp_tool_mastery:shield/using_offhand"
+  }
+}

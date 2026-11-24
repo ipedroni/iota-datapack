@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "POC Anvil v3.8.6 - stable interaction, adjusted hitbox and decorative orb drops",
+    "min_format": [
+      94,
+      1
+    ],
+    "max_format": [
+      94,
+      1
+    ]
+  }
+}

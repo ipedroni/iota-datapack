@@ -1,0 +1,1 @@
+{"criteria": {"event": {"trigger": "minecraft:villager_trade", "conditions": {"villager": {"type": "minecraft:villager", "nbt": "{Tags:[\"iota_trades_id.43\"]}"}}}}, "rewards": {"function": "iota_trades:events/trade_43"}}

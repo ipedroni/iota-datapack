@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "value": "iota_drops:bundles/abandoned",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.03
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": "iota_drops:vanilla/trail_ruins_rare"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

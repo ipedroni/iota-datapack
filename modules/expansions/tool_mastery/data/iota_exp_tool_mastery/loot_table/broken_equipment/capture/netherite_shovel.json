@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:structure_void",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "items": [
+                          "minecraft:netherite_shovel"
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_custom_data",
+                  "tag": "{iota_break_capture:{item:\"minecraft:netherite_shovel\",name:\"netherite_shovel\",slot:\"weapon.mainhand\",source:\"SelectedItem\"}}"
+                },
+                {
+                  "function": "minecraft:copy_custom_data",
+                  "source": "this",
+                  "ops": [
+                    {
+                      "source": "SelectedItem",
+                      "target": "iota_break_capture.original",
+                      "op": "replace"
+                    },
+                    {
+                      "source": "UUID",
+                      "target": "iota_break_capture.owner",
+                      "op": "replace"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:structure_void",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "items": [
+                          "minecraft:netherite_shovel"
+                        ]
+                      }
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_custom_data",
+                  "tag": "{iota_break_capture:{item:\"minecraft:netherite_shovel\",name:\"netherite_shovel\",slot:\"weapon.offhand\",source:\"equipment.offhand\"}}"
+                },
+                {
+                  "function": "minecraft:copy_custom_data",
+                  "source": "this",
+                  "ops": [
+                    {
+                      "source": "equipment.offhand",
+                      "target": "iota_break_capture.original",
+                      "op": "replace"
+                    },
+                    {
+                      "source": "UUID",
+                      "target": "iota_break_capture.owner",
+                      "op": "replace"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# The item is already a player_head. Only our exact orb texture qualifies.
+execute if data entity @s Item.components."minecraft:profile".properties[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjFhMTExZWMxMTAyYzQwYzAyZDFkNDBmNDdlNjA5Mzg1MTIzOTNlOWRkYWZlZmQ1MDI4ZDJkM2EyMmJmNTE4ZSJ9fX0="}] run function anvil_poc:orb_restore_named_386

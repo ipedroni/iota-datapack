@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "block": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 0.0001
+          },
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "iota_exp_tool_mastery:shield/block"
+  }
+}
