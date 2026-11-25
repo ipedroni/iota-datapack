@@ -330,6 +330,23 @@ Revisit one Stick, Flint, ingot, Diamond or Netherite Scrap repairing the corres
 Current native material repair still restores roughly one quarter per unit; repairable chooses the ingredient, not that fraction. A custom interaction would need a prototype. Existing ingredient substitutions are already shipped.
 
 
+### F-037 — Universal Blocking
+
+**State:** Future proposal; not approved for implementation. **Priority:** None assigned. **Owner:** Equipment systems (proposed).
+
+**Design tags:** Progression, Survival.
+
+Allow held tools, weapons and other equipment (excluding armor) to provide improvised blocking. Equipment type should determine most of the defensive effectiveness, with smaller material-based modifiers. The Shield must remain vastly superior and retain its vanilla role.
+
+Initial calibration candidates (damage blocked / total frontal protection angle): Shield 100% / 180° (vanilla reference); Sword 35% / 120°; Axe and Mace 25% / 100°; Spear and Trident 20% / 90°; Pickaxe and Shovel 15% / 80°; Hoe 10% / 60°; Bow and Crossbow 5% / 60°; Fishing Rod, Shears, Brush and Flint and Steel 5% / 40°. Candidate material multipliers: Wood ×0.80, Stone ×0.85, Gold ×0.90, Copper ×0.95, Iron ×1.00, Diamond ×1.10, Netherite ×1.20. These values are illustrative, not selected balance; review other equipment and material-less items separately.
+
+Consider restricting improvised blocking to melee damage, preserving Shield protection against projectiles and explosions subject to vanilla exceptions. Differentiate activation delay, durability cost and protection angle by equipment type.
+
+Investigate the native `minecraft:blocks_attacks` component in Java 1.21.11 using a datapack-only prototype, without mandatory mods or resource packs. Validate activation and animations, right-click conflicts with native tool actions (including stripping, tilling, shooting, fishing and spear attacks), Shield priority in the offhand, durability and Broken equipment behavior. Preserve existing item functionality; universal coverage is a design goal, not established technical feasibility.
+
+Potential later Tool Mastery integration: XP for successful blocks, reduced blocking durability costs at higher mastery, and a small Masterwork defensive bonus. Keep this separate from the initial blocking prototype. No expansion is merged or unpaused by this proposal.
+
+
 ## 6. Survival, companion protection and recovery
 
 ### F-021 — Half-heart damage after a qualifying empty-hand break
