@@ -1,0 +1,8 @@
+import net from 'node:net';
+export class Rcon {
+ constructor(){this.id=0;this.pending=new Map();this.buffer=Buffer.alloc(0);}
+ async connect(){this.socket=net.createConnection({host:'127.0.0.1',port:25586});this.socket.on('data',b=>{this.buffer=Buffer.concat([this.buffer,b]);while(this.buffer.length>=4){const n=this.buffer.readInt32LE();if(this.buffer.length<n+4)break;const packet=this.buffer.subarray(4,n+4);this.buffer=this.buffer.subarray(n+4);const id=packet.readInt32LE(),type=packet.readInt32LE(4),body=packet.subarray(8,-2).toString('utf8'),p=this.pending.get(id);if(p&&(!p.auth||type===2)){this.pending.delete(id);clearTimeout(p.timeout);p.resolve(body);}}});this.socket.on('error',()=>{});await new Promise((r,j)=>{this.socket.once('connect',r);this.socket.once('error',j);});const password=process.env.IOTA_TEST_RCON_PASSWORD;if(!password)throw Error('Set IOTA_TEST_RCON_PASSWORD for the local test server');await this.send(password,3);}
+ send(body,type=2){return new Promise((resolve,reject)=>{const id=++this.id,payload=Buffer.from(body),packet=Buffer.alloc(payload.length+14);packet.writeInt32LE(payload.length+10);packet.writeInt32LE(id,4);packet.writeInt32LE(type,8);payload.copy(packet,12);const timeout=setTimeout(()=>{this.pending.delete(id);reject(Error('RCON timeout: '+body));},120000);this.pending.set(id,{resolve,reject,auth:type===3,timeout});this.socket.write(packet);});}
+ close(){this.socket.end();}
+}
+if(process.argv[1]?.endsWith('rcon.mjs')){const c=new Rcon();await c.connect();for(const command of process.argv.slice(2))console.log(command+'\n'+await c.send(command));c.close();}

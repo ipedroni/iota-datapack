@@ -1,0 +1,1347 @@
+{
+  "version": "1.21.11",
+  "profession": "minecraft:fletcher",
+  "source": "docs/discovery/drafts/trading_profession_catalog_draft.md#fletcher",
+  "status": "candidate pricing and offer pools for C02",
+  "sharedRules": {
+    "arrows": "Exclude each arrow variant from later draws in the same direction",
+    "purchaseDurability": "full",
+    "masterCrossbowMendingChance": 2.5,
+    "incompatibilities": "Multishot/Piercing and Infinity/Mending"
+  },
+  "stages": [
+    {
+      "name": "Novice",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:arrow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:arrow",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "familyWeights": "equal",
+              "enchantments": "plain",
+              "candidates": [
+                {
+                  "item": "minecraft:bow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bow",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:crossbow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:crossbow",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:flint",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:flint",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 12
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:stick",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:stick",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apprentice",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "familyWeights": "equal",
+              "enchantments": "plain",
+              "exclude": "Novice weapon",
+              "candidates": [
+                {
+                  "item": "minecraft:bow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bow",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:crossbow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:crossbow",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "slowness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:tipped_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "weakness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:tipped_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "exclude": "Novice purchases",
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:flint",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:flint",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 12
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:stick",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:stick",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Journeyman",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "familyWeights": "equal",
+              "enchantments": "few low-potency enchantments",
+              "candidates": [
+                {
+                  "item": "minecraft:bow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bow",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "usesPerRefill": 2,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 1,
+                        "minecraft:power": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:crossbow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:crossbow",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "usesPerRefill": 2,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:quick_charge": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 13
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:spectral_arrow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 27
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:spectral_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "slowness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:tipped_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "weakness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:tipped_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "familyWeights": "equal",
+              "enchantments": "plain",
+              "candidates": [
+                {
+                  "item": "minecraft:bow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bow",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 2
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:crossbow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:crossbow",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:spectral_arrow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:spectral_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "slowness",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "weakness",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expert",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "familyWeights": "equal",
+              "enchantments": "some medium-potency enchantments",
+              "candidates": [
+                {
+                  "item": "minecraft:bow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bow",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "usesPerRefill": 2,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 2,
+                        "minecraft:power": 2,
+                        "minecraft:punch": 1,
+                        "minecraft:flame": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 11
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:crossbow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:crossbow",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "usesPerRefill": 2,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 2,
+                        "minecraft:quick_charge": 2,
+                        "minecraft:piercing": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 19
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:spectral_arrow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 27
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:spectral_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "slowness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:tipped_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "weakness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:tipped_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "poison",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:tipped_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "harming",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:tipped_arrow",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "familyWeights": "equal",
+              "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+              "candidates": [
+                {
+                  "item": "minecraft:bow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bow",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 2
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:crossbow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:crossbow",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:spectral_arrow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:spectral_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "slowness",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "weakness",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "poison",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "harming",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "familyWeights": "equal",
+              "enchantments": "some high-potency enchantments",
+              "candidates": [
+                {
+                  "item": "minecraft:bow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bow",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "usesPerRefill": 2,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 3,
+                        "minecraft:flame": 1,
+                        "minecraft:mending": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:crossbow",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:crossbow",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "usesPerRefill": 2,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 3,
+                        "minecraft:quick_charge": 3,
+                        "minecraft:multishot": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 19
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "exclude": "Expert contract",
+          "groups": [
+            {
+              "familyWeights": "equal",
+              "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+              "candidates": [
+                {
+                  "item": "minecraft:bow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bow",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 2
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:crossbow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:crossbow",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:spectral_arrow",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:spectral_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "slowness",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "weakness",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "poison",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:tipped_arrow",
+                  "variant": "harming",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:tipped_arrow",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examplePlan": {
+    "profession": "minecraft:fletcher",
+    "villagerType": "plains",
+    "offers": [
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:arrow",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 4
+            }
+          ],
+          "output": {
+            "item": "minecraft:arrow",
+            "count": 16
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:crossbow",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 12
+            }
+          ],
+          "output": {
+            "item": "minecraft:crossbow",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:flint",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:flint",
+              "count": 48
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 12
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:feather",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:feather",
+              "count": 48
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:bow",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            }
+          ],
+          "output": {
+            "item": "minecraft:bow",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:stick",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:stick",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 3
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:bow",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 7
+            }
+          ],
+          "output": {
+            "item": "minecraft:bow",
+            "count": 1,
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1,
+                "minecraft:power": 1
+              }
+            }
+          },
+          "enchantments": "few low-potency enchantments",
+          "price": "minimum before enchantment premium",
+          "perLevelPremium": 1,
+          "treasurePremium": 4,
+          "usesPerRefill": 2
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:bow",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:bow",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 2
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:tipped_arrow",
+          "variant": "slowness",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 23
+            }
+          ],
+          "output": {
+            "item": "minecraft:tipped_arrow",
+            "count": 8,
+            "components": {
+              "minecraft:potion_contents": {
+                "potion": "minecraft:slowness"
+              }
+            }
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:bow",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:bow",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 2
+          },
+          "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:bow",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 11
+            }
+          ],
+          "output": {
+            "item": "minecraft:bow",
+            "count": 1,
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:power": 4,
+                "minecraft:punch": 2
+              }
+            }
+          },
+          "enchantments": "some high-potency enchantments",
+          "price": "minimum before enchantment premium",
+          "perLevelPremium": 1,
+          "treasurePremium": 4,
+          "usesPerRefill": 2
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:tipped_arrow",
+          "variant": "harming",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:tipped_arrow",
+              "count": 8,
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:harming"
+                }
+              }
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 2
+        }
+      }
+    ]
+  }
+}

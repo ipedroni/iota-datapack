@@ -6,4 +6,5 @@ data modify storage iota_trades:scratch work.dimension set from storage iota_tra
 data modify storage iota_trades:scratch work.x set from storage iota_trades:scratch work.job.pos[0]
 data modify storage iota_trades:scratch work.y set from storage iota_trades:scratch work.job.pos[1]
 data modify storage iota_trades:scratch work.z set from storage iota_trades:scratch work.job.pos[2]
-function iota_trades:clock/work_at with storage iota_trades:scratch work
+data modify storage iota_trades:scratch work.profession set string entity @s VillagerData.profession 10
+function iota_trades:clock/workstation with storage iota_trades:scratch work

@@ -1,0 +1,1416 @@
+{
+  "version": "1.21.11",
+  "profession": "minecraft:butcher",
+  "source": "docs/discovery/drafts/trading_profession_catalog_draft.md#butcher",
+  "status": "candidate pricing and offer pools for C02",
+  "sharedRules": {
+    "history": "Exclude previous exact offers in the same direction",
+    "purchasesAtFullDurability": [
+      "iron_axe"
+    ]
+  },
+  "stages": [
+    {
+      "name": "Novice",
+      "sales": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:chicken",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:chicken",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:porkchop",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:porkchop",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:beef",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:beef",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:mutton",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:mutton",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:wheat",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:wheat",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:wheat_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:wheat_seeds",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:carrot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:carrot",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:potato",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:potato",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:beetroot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:beetroot",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:iron_axe",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_axe",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 8
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apprentice",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:chicken",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:chicken",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:porkchop",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:porkchop",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:beef",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:beef",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:mutton",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:mutton",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:bone",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bone",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:rabbit_hide",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:wheat",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:wheat",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:wheat_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:wheat_seeds",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:carrot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:carrot",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:potato",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:potato",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:beetroot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:beetroot",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:iron_axe",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_axe",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 8
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Journeyman",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:chicken",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:chicken",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:porkchop",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:porkchop",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:beef",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:beef",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:mutton",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:mutton",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:bone",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bone",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:rabbit_hide",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:bread",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bread",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:apple",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:apple",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:honey_bottle",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:honey_bottle",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 11
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:egg",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:egg",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 2
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:milk_bucket",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:milk_bucket",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:coal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:coal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:charcoal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:charcoal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expert",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:cooked_chicken",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cooked_chicken",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cooked_mutton",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cooked_mutton",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cooked_rabbit",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cooked_rabbit",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:bread",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bread",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:apple",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:apple",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:honey_bottle",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:honey_bottle",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 11
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:egg",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:egg",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 2
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:milk_bucket",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:milk_bucket",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:coal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:coal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:charcoal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:charcoal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:cooked_beef",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cooked_beef",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cooked_porkchop",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cooked_porkchop",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:rabbit_stew",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 3
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:rabbit_stew",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:bread",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bread",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:apple",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:apple",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:honey_bottle",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:honey_bottle",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 11
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:egg",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:egg",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 2
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:milk_bucket",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:milk_bucket",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:coal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:coal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:charcoal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:charcoal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examplePlan": {
+    "profession": "minecraft:butcher",
+    "villagerType": "plains",
+    "offers": [
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:chicken",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            }
+          ],
+          "output": {
+            "item": "minecraft:chicken",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:beef",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            }
+          ],
+          "output": {
+            "item": "minecraft:beef",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:wheat",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:wheat",
+              "count": 48
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:wheat_seeds",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:wheat_seeds",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:rabbit_hide",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            }
+          ],
+          "output": {
+            "item": "minecraft:rabbit_hide",
+            "count": 16
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:iron_axe",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:iron_axe",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 8
+          },
+          "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+          "durability": "full",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:porkchop",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            }
+          ],
+          "output": {
+            "item": "minecraft:porkchop",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:apple",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:apple",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 15
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:cooked_chicken",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 6
+            }
+          ],
+          "output": {
+            "item": "minecraft:cooked_chicken",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:coal",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:coal",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 15
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:cooked_beef",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 6
+            }
+          ],
+          "output": {
+            "item": "minecraft:cooked_beef",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:paper",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:paper",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      }
+    ]
+  }
+}

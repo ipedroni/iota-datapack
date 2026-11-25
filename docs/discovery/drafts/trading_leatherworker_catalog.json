@@ -1,0 +1,3011 @@
+{
+  "version": "1.21.11",
+  "profession": "minecraft:leatherworker",
+  "source": "docs/discovery/drafts/trading_profession_catalog_draft.md#leatherworker",
+  "status": "candidate pricing and offer pools for C02",
+  "sharedRules": {
+    "saleHistory": "Exclude previous exact offers in the same direction",
+    "dyePurchases": "From Journeyman onward exclude every previously purchased dye color",
+    "journeymanSaleWeights": {
+      "leather": 2,
+      "rabbit_hide": 2,
+      "dyeGroup": 1
+    }
+  },
+  "stages": [
+    {
+      "name": "Novice",
+      "sales": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:leather_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_boots",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:rotten_flesh",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:rotten_flesh",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:rabbit_hide",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apprentice",
+      "sales": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:leather_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_boots",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "dye",
+              "candidates": [
+                {
+                  "item": "minecraft:white_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:white_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:orange_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:orange_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magenta_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:magenta_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_blue_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:light_blue_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:yellow_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:yellow_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lime_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:lime_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pink_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pink_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gray_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:gray_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_gray_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:light_gray_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cyan_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cyan_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:purple_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:purple_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:red_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:red_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:bundle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 3
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bundle",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lead",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:lead",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "exclude": "Novice purchases",
+              "candidates": [
+                {
+                  "item": "minecraft:rotten_flesh",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:rotten_flesh",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:rabbit_hide",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "dye",
+              "candidates": [
+                {
+                  "item": "minecraft:white_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:white_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:orange_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:orange_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magenta_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:magenta_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_blue_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:light_blue_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:yellow_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:yellow_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lime_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:lime_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pink_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pink_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gray_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gray_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_gray_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:light_gray_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cyan_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cyan_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:purple_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:purple_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:red_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:red_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:brown_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:brown_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:green_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:green_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:blue_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:blue_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Journeyman",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:leather_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_boots",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:bundle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 3
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:bundle",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lead",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:lead",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "weight": 2,
+              "candidates": [
+                {
+                  "item": "minecraft:leather",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "weight": 2,
+              "candidates": [
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:rabbit_hide",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "dye",
+              "weight": 1,
+              "candidates": [
+                {
+                  "item": "minecraft:white_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:white_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:orange_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:orange_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magenta_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:magenta_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_blue_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:light_blue_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:yellow_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:yellow_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lime_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:lime_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pink_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pink_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gray_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:gray_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_gray_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:light_gray_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cyan_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cyan_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:purple_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:purple_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:red_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:red_dye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "exclude": "previous purchases",
+              "candidates": [
+                {
+                  "item": "minecraft:rotten_flesh",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:rotten_flesh",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:rabbit_hide",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "enchantments": "plain",
+              "durability": "full",
+              "candidates": [
+                {
+                  "item": "minecraft:leather_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "plain",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "plain",
+                  "durability": "full",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "dye",
+              "candidates": [
+                {
+                  "item": "minecraft:white_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:white_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:orange_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:orange_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magenta_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:magenta_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_blue_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:light_blue_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:yellow_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:yellow_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lime_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:lime_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pink_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pink_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gray_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gray_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_gray_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:light_gray_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cyan_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cyan_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:purple_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:purple_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:red_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:red_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:brown_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:brown_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:green_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:green_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:blue_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:blue_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expert",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:leather_horse_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_horse_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:wolf_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:wolf_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:rabbit_hide",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:rabbit_hide",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:saddle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:saddle",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "harness",
+              "candidates": [
+                {
+                  "item": "minecraft:white_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:white_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:orange_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:orange_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magenta_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:magenta_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_blue_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:light_blue_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:yellow_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:yellow_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lime_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:lime_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pink_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pink_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gray_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:gray_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_gray_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:light_gray_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cyan_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cyan_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:purple_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:purple_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:red_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:red_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+              "durability": "full",
+              "candidates": [
+                {
+                  "item": "minecraft:leather_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "dye",
+              "candidates": [
+                {
+                  "item": "minecraft:white_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:white_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:orange_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:orange_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magenta_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:magenta_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_blue_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:light_blue_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:yellow_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:yellow_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lime_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:lime_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pink_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pink_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gray_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gray_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_gray_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:light_gray_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cyan_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cyan_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:purple_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:purple_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:red_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:red_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:brown_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:brown_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:green_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:green_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:blue_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:blue_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "family": "dye",
+              "quote": "master_dye",
+              "candidates": [
+                {
+                  "item": "minecraft:brown_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:brown_dye",
+                    "count": 10
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:green_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:green_dye",
+                    "count": 10
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:blue_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:blue_dye",
+                    "count": 10
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:black_dye",
+                    "count": 10
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:leather_horse_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:leather_horse_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:wolf_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:wolf_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:saddle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:saddle",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "harness",
+              "candidates": [
+                {
+                  "item": "minecraft:brown_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:brown_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:green_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:green_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:blue_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:blue_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_harness",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:black_harness",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "exclude": "Expert contract",
+          "groups": [
+            {
+              "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+              "durability": "full",
+              "candidates": [
+                {
+                  "item": "minecraft:leather_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:leather_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+                  "durability": "full",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "dye",
+              "candidates": [
+                {
+                  "item": "minecraft:white_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:white_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:orange_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:orange_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magenta_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:magenta_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_blue_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:light_blue_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:yellow_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:yellow_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lime_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:lime_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pink_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pink_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gray_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gray_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:light_gray_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:light_gray_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cyan_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cyan_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:purple_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:purple_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:red_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:red_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:brown_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:brown_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:green_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:green_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:blue_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:blue_dye",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examplePlan": {
+    "profession": "minecraft:leatherworker",
+    "villagerType": "plains",
+    "offers": [
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:leather_leggings",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 9
+            }
+          ],
+          "output": {
+            "item": "minecraft:leather_leggings",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:leather_helmet",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 7
+            }
+          ],
+          "output": {
+            "item": "minecraft:leather_helmet",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:rabbit_hide",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:rabbit_hide",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:rotten_flesh",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:rotten_flesh",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 7
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:leather_chestplate",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 9
+            }
+          ],
+          "output": {
+            "item": "minecraft:leather_chestplate",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:bundle",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 3
+            }
+          ],
+          "output": {
+            "item": "minecraft:bundle",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:string",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:string",
+              "count": 48
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:leather_boots",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 7
+            }
+          ],
+          "output": {
+            "item": "minecraft:leather_boots",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:orange_dye",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:orange_dye",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:leather_horse_armor",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 4
+            }
+          ],
+          "output": {
+            "item": "minecraft:leather_horse_armor",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:leather_helmet",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:leather_helmet",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 3
+          },
+          "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+          "durability": "full",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:black_harness",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 4
+            }
+          ],
+          "output": {
+            "item": "minecraft:black_harness",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:leather_chestplate",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:leather_chestplate",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 4
+          },
+          "enchantments": "optional low-potency Basic; additional effects accepted at the same payout",
+          "durability": "full",
+          "usesPerRefill": null
+        }
+      }
+    ]
+  }
+}

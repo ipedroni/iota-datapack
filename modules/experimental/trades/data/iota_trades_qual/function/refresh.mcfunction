@@ -1,6 +1,9 @@
 scoreboard players set @s iota_qbusy 1
 advancement revoke @s only iota_trades_qual:open_merchant
 scoreboard players add @s iota_qpoc 1
+scoreboard players set #qual_optional iota_qpoc 0
+execute if entity @e[type=minecraft:villager,tag=iota_trades_current_probe,tag=iota_trades_catalog,distance=..8] run scoreboard players set #qual_optional iota_qpoc 1
+execute if entity @e[type=minecraft:villager,tag=iota_trades_production_test,tag=iota_trades_catalog,distance=..8] run scoreboard players set #qual_optional iota_qpoc 1
 execute if items entity @s hotbar.0 #iota_trades_qual:equipment run function iota_trades_qual:refresh_slot {"slot":"hotbar.0","nbt":"Inventory[{Slot:0b}].components.\"minecraft:enchantments\""}
 execute if items entity @s hotbar.1 #iota_trades_qual:equipment run function iota_trades_qual:refresh_slot {"slot":"hotbar.1","nbt":"Inventory[{Slot:1b}].components.\"minecraft:enchantments\""}
 execute if items entity @s hotbar.2 #iota_trades_qual:equipment run function iota_trades_qual:refresh_slot {"slot":"hotbar.2","nbt":"Inventory[{Slot:2b}].components.\"minecraft:enchantments\""}

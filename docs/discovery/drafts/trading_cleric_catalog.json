@@ -1,0 +1,1494 @@
+{
+  "version": "1.21.11",
+  "profession": "minecraft:cleric",
+  "source": "docs/discovery/drafts/trading_profession_catalog_draft.md#cleric",
+  "status": "candidate pricing and offer pools for C02",
+  "sharedRules": {
+    "history": "Exclude previous exact offers in the same direction"
+  },
+  "stages": [
+    {
+      "name": "Novice",
+      "sales": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:candle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:candle",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lantern",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:lantern",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:sugar",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:sugar",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gunpowder",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:gunpowder",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:redstone",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:redstone",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:spider_eye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 18
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:spider_eye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:slime_ball",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 18
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:slime_ball",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:glass_bottle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:glass_bottle",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:rotten_flesh",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:rotten_flesh",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:bone",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bone",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:honeycomb",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:honeycomb",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ink_sac",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ink_sac",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apprentice",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:candle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:candle",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lantern",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:lantern",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:sugar",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:sugar",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gunpowder",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:gunpowder",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:redstone",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:redstone",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:spider_eye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 18
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:spider_eye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:slime_ball",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 18
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:slime_ball",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:glass_bottle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:glass_bottle",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:rotten_flesh",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:rotten_flesh",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:bone",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bone",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:string",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:string",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:honeycomb",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:honeycomb",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ink_sac",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ink_sac",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Journeyman",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:candle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:candle",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:lantern",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:lantern",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:sugar",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:sugar",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gunpowder",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:gunpowder",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:redstone",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:redstone",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:spider_eye",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 18
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:spider_eye",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:slime_ball",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 18
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:slime_ball",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:glass_bottle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:glass_bottle",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:glass_bottle",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:glass_bottle",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:spider_eye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:spider_eye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gunpowder",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gunpowder",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:redstone",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:redstone",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:slime_ball",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:slime_ball",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expert",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:blaze_powder",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 3
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:blaze_powder",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:glowstone_dust",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:glowstone_dust",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ender_pearl",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:ender_pearl",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:nether_wart",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:nether_wart",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magma_cream",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:magma_cream",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:quartz",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:quartz",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:ender_pearl",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ender_pearl",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:quartz",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:quartz",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:blaze_powder",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:blaze_powder",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magma_cream",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:magma_cream",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 6
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:phantom_membrane",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:phantom_membrane",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:blaze_powder",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 3
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:blaze_powder",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:glowstone_dust",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:glowstone_dust",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ender_pearl",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:ender_pearl",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:phantom_membrane",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:phantom_membrane",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ghast_tear",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:ghast_tear",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:wither_skeleton_skull",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:wither_skeleton_skull",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:ghast_tear",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ghast_tear",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ender_eye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ender_eye",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:wither_skeleton_skull",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:wither_skeleton_skull",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 60
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ender_pearl",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ender_pearl",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:quartz",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:quartz",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:blaze_powder",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:blaze_powder",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:magma_cream",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:magma_cream",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 6
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:phantom_membrane",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:phantom_membrane",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examplePlan": {
+    "profession": "minecraft:cleric",
+    "villagerType": "plains",
+    "offers": [
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:candle",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 4
+            }
+          ],
+          "output": {
+            "item": "minecraft:candle",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:slime_ball",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 18
+            }
+          ],
+          "output": {
+            "item": "minecraft:slime_ball",
+            "count": 8
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:rotten_flesh",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:rotten_flesh",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 7
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:paper",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:paper",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:lantern",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 10
+            }
+          ],
+          "output": {
+            "item": "minecraft:lantern",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:feather",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:feather",
+              "count": 48
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:gunpowder",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 7
+            }
+          ],
+          "output": {
+            "item": "minecraft:gunpowder",
+            "count": 8
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:gunpowder",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:gunpowder",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 7
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:magma_cream",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 9
+            }
+          ],
+          "output": {
+            "item": "minecraft:magma_cream",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:ender_pearl",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:ender_pearl",
+              "count": 4
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:ender_pearl",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            }
+          ],
+          "output": {
+            "item": "minecraft:ender_pearl",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:magma_cream",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:magma_cream",
+              "count": 4
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 6
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      }
+    ]
+  }
+}

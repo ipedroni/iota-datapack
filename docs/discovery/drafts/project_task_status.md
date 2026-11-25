@@ -1,220 +1,62 @@
 # Tarefas do Iota — decisões e andamento
 
-Atualizado em 22/11/2026.
+Atualizado em 24/11/2026.
 
-Os 50 IDs e status refletem as notas da coluna J da planilha e as decisões registradas posteriormente neste documento. Os links apontam para as regras e verificações atuais. Há 29 tarefas concluídas, 18 abertas (incluindo as adiadas que permanecem na fila), 2 transferidas para ideias futuras e 1 retirada do escopo.
+As entradas da planilha mantêm os IDs originais.
 
-**Como ler os status:** “Concluída” se refere à tarefa descrita. Um catálogo ou estudo concluído não significa que a mudança já esteja implementada ou publicada no datapack. As notas indicam essas diferenças.
+## Pendências do pacote base — 24/11/2026
 
-Este documento registra o estado da planilha em 22/11/2026 e as validações de P01 a P09 em 23/11/2026.
-
-## Profissões e ofertas
-
-### P01 — Ofertas do Toolsmith
-
-**Status:** Concluída.
-
-O [template do Toolsmith](trading_toolsmith_template.md) foi validado em 23/11/2026. A atualização do catálogo gerado segue em C02.
-
-### P02 — Ofertas do Armorer
-
-**Status:** Concluída.
-
-O [catálogo do Armorer](trading_profession_catalog_draft.md#armorer) foi validado em 23/11/2026. Horse Armor encantada segue condicionada ao teste funcional. A atualização do catálogo gerado segue em C02.
-
-### P03 — Ofertas do Weaponsmith
-
-**Status:** Concluída.
-
-O [catálogo do Weaponsmith](trading_profession_catalog_draft.md#weaponsmith) foi validado em 23/11/2026. O percentual da chance reduzida de Mending segue em aberto. A atualização do catálogo gerado segue em C02.
-
-### P04 — Ofertas do Fletcher
-
-**Status:** Concluída.
-
-O [catálogo do Fletcher](trading_profession_catalog_draft.md#fletcher) foi validado em 23/11/2026. A atualização do catálogo gerado segue em C02.
-
-### P05 — Ofertas do Leatherworker
-
-**Status:** Concluída.
-
-O [catálogo do Leatherworker](trading_profession_catalog_draft.md#leatherworker) foi validado em 23/11/2026. O contrato de compra de equipamento em Journeyman e a calibração de pesos, preços e lotes seguem em aberto. A venda de armaduras de animais encantadas depende de teste funcional. A atualização do catálogo gerado segue em C02.
-
-### P06 — Ofertas do Farmer
-
-**Status:** Concluída.
-
-O [catálogo do Farmer](trading_profession_catalog_draft.md#farmer) foi validado em 23/11/2026. Os preços e lotes seguem para calibração e checagem de revenda. A atualização do catálogo gerado segue em C02.
-
-### P07 — Ofertas do Shepherd
-
-**Status:** Concluída.
-
-O [catálogo do Shepherd](trading_profession_catalog_draft.md#shepherd) foi validado em 23/11/2026. Os preços e lotes seguem para calibração e checagem de revenda. A atualização do catálogo gerado segue em C02.
-
-### P08 — Ofertas do Librarian
-
-**Status:** Concluída.
-
-O [catálogo do Librarian](trading_profession_catalog_draft.md#librarian) foi validado em 23/11/2026, com três ou quatro vendas de livros encantados ao chegar a Master. O mapa de Tesouro por tipo de aldeão foi aprovado, com 75% para a especialidade local e 25% para outro Tesouro. Os demais pesos, preços e lotes seguem em calibração. A atualização do catálogo gerado segue em C02.
-
-### P09 — Ofertas do Butcher
-
-**Status:** Concluída.
-
-O [catálogo do Butcher](trading_profession_catalog_draft.md#butcher) foi validado em 23/11/2026. Comida preparada entra em Expert e Rabbit Stew é opção de Master. As vendas de peixe ficam com o Fisherman. As condições de compra do Iron Axe, os preços e os lotes seguem em aberto. A atualização do catálogo gerado segue em C02.
-
-### P10 — Ofertas do Fisherman
-
-**Status:** Aguardando decisão.
-
-Na revisão de cinco níveis, preservar a identidade de pesca e a regra de não comprar peixe. Consultar as tabelas anteriores no catálogo de profissões.
-
-### P11 — Ofertas do Cartographer
-
-**Status:** Aguardando decisão.
-
-Na revisão de cinco níveis, rever mapas, serviços e o preço da Recovery Compass. Consultar as tabelas anteriores no catálogo de profissões.
-
-### P12 — Ofertas do Cleric
-
-**Status:** Aguardando decisão.
-
-Na revisão de cinco níveis, rever os reagentes, poções e as antigas opções Wind Charge e Ghast Tear. Consultar as tabelas anteriores no catálogo de profissões.
-
-### P13 — Ofertas do Mason
-
-**Status:** Aguardando decisão.
-
-Na revisão de cinco níveis, manter Flint cedo e rever materiais em volume e acabamentos. Consultar as tabelas anteriores no catálogo de profissões.
-
-## Trocas regionais
-
-### R01 — Produtos de cada região
-
-**Status:** Concluída.
-
-A matriz inicial está na [economia regional](trading_design_directions.md#regional-economy).
-
-### R02 — Distâncias entre biomas
-
-**Status:** Concluída.
-
-Ver as [amostras de distância por bioma](../research_index.md#pesquisas-disponíveis).
-
-### R03 — Origem e localização do comerciante
-
-**Status:** Concluída.
-
-A proposta de identidade e localização está na [economia regional](trading_design_directions.md#regional-economy). Implementação e testes em C05.
-
-### R04 — Ofertas regionais extras
-
-**Status:** Concluída.
-
-Consultar a [regra aprovada de vagas regionais](trading_design_directions.md#ordinary-and-regional-slots).
-
-### R05 — Lucro com produtos importados
-
-**Status:** Concluída.
-
-Consultar a [calibração candidata de importações](trading_design_directions.md#regional-economy).
-
-### R06 — Como identificar produtos importados
-
-**Status:** Concluída.
-
-Consultar o [critério de produto importado](trading_design_directions.md#regional-economy).
-
-## Ofertas especiais e reputação
-
-### S01 — Redistribuição das ofertas especiais para Master
-
-**Status:** Aguardando decisão.
-
-Rever quais ofertas especiais entram em Master e como serão sorteadas. Percentuais antigos de Secret são históricos. Ainda não há percentual aprovado para Netherite.
-
-### S02 — Reputação, cura e defesa da vila
-
-**Status:** Retirada do escopo.
-
-A progressão de comércio dispensa os antigos requisitos de reputação, cura e defesa da vila que desbloqueavam Secret. Esses requisitos ficam registrados no histórico.
-
-### S03 — Disponibilidade de Mending
-
-**Status:** Concluída.
-
-Consultar [acesso a Mending](trading_design_directions.md#reputation-and-maintenance-access) e a [regra de espadas e bestas](trading_profession_catalog_draft.md#weaponsmith).
+- **Tools** — Igualar a durabilidade das lanças à das espadas do mesmo material. Ajustar a velocidade de mineração para 64% abaixo da vanilla em madeira e pedra e 8% acima da vanilla em netherita. Definir a encantabilidade das ferramentas de ouro em 48.
+- **Recipes** — Auditar todos os tipos de tijolo e de pedra para verificar se as receitas seguem as regras de construção que exigem o cortador de pedras.
+- **World** — Fazer o sono diurno avançar até o início da noite e o sono noturno avançar até o amanhecer.
 
 ## Economia e descontos
 
 ### T01 — Descontos nas trocas
 
-**Status:** A pesquisar.
+**Status:** Regra aprovada, a validar.
 
-Fechar o tratamento de Hero of the Village e validar os lotes na [calibração econômica](trading_design_directions.md#working-price-and-stock-calibration).
-
-### E01 — Estoque dos ferreiros
-
-**Status:** Concluída.
-
-Consultar [estoque dos ferreiros](trading_design_directions.md#working-price-and-stock-calibration).
-
-### E02 — Preço da Recovery Compass
-
-**Status:** Concluída.
-
-Consultar [calibração da Recovery Compass](trading_design_directions.md#working-price-and-stock-calibration).
+A [regra de Hero of the Village](../../design_directions.md#hero-of-the-village) foi publicada no World. O desconto de Hero foi mantido. A revenda direta comum ou local exige margem positiva mesmo sob Hero V, com a exceção regional aprovada. Falta validar preços efetivos e lotes inteiros na [calibração econômica](trading_design_directions.md#working-price-and-stock-calibration).
 
 ### E03 — Preços e revenda
 
 **Status:** A validar.
 
-Validar os [critérios econômicos](trading_design_directions.md#economic-criteria--approved) com os preços e lotes candidatos.
-
-### E04 — Esforço para construir e operar farms
-
-**Status:** Concluída.
-
-Encerrada por decisão do usuário. Preservar os dados do benchmark sem continuar a medir esforço humano de construir ou operar farms.
-
-### E05 — Simulação da economia
-
-**Status:** Concluída.
-
-Os cenários, premissas e resultados estão nas [simulações de mercado arquivadas](../research_index.md#medições-de-farm-e-simulações-arquivadas).
+Validar os [critérios econômicos](trading_design_directions.md#economic-criteria--approved) com os preços e lotes candidatos das 13 profissões. Conferir revenda direta entre comerciantes com os descontos aplicáveis, incluindo Hero V, e impedir lucro em ciclos reversíveis de fabricação. Preservar a remuneração por fabricação útil e a exceção regional aprovada. A primeira rodada de [preços e lotes candidatos](trading_design_directions.md#candidate-quotes-for-the-validated-pools) cobre metais, Diamond, Netherite Scrap, argila, peixe e ingredientes do Cleric. A segunda rodada adicionou [29 cotações compartilhadas](trading_design_directions.md#shared-candidate-quotes-for-overlapping-offers), checou conversões de metais, tinta, couro e livros, e reduziu a margem do peixe sob Hero V. A terceira rodada incluiu [26 cotações agrícolas, têxteis e de suprimentos](trading_design_directions.md#candidate-farm-textile-and-supply-quotes), com checagem das tintas de Master, trigo e lã. A quarta rodada incluiu [17 cotações de equipamento e navegação](trading_design_directions.md#candidate-equipment-and-navigation-quotes), com checagens de fundição de ferramentas e fabricação de bússolas e relógios. A quinta rodada incluiu [21 cotações de alimentos, munição e recipientes](trading_design_directions.md#candidate-food-ammunition-and-container-quotes), com checagens de recuperação de baldes e frascos e fabricação de flechas espectrais. A sexta rodada cotou [as especialidades do Mason](trading_design_directions.md#candidate-mason-specialty-quotes) e calculou o ponto de equilíbrio da fabricação de flechas com poção. A sétima rodada adicionou [cotações de exploração e do Librarian](trading_design_directions.md#candidate-exploration-and-librarian-quotes) e estimou o custo das quatro poções de flechas. A oitava rodada incluiu [preços para variantes de equipamento](trading_design_directions.md#candidate-prices-for-equipment-variants), com verificação do pagamento em dois campos e do estoque de lingotes. A nona rodada aplicou [pisos de fabricação](trading_design_directions.md#equipment-manufacturing-floors) a 47 receitas de equipamento e recalculou a margem sob Hero. A décima rodada definiu [estoques candidatos de fabricação](trading_design_directions.md#candidate-manufacturing-stock-and-native-trade-checks) e confirmou quatro ofertas injetadas sob Hero V na interface nativa de Java 1.21.11. A [auditoria de conversões em cadeia](trading_design_directions.md#multi-step-conversion-audit) cobriu 26 itens comprados no recorte inicial e corrigiu o preço de Sand para impedir lucro na rota de Glass Bottles sob Hero V. O [teste reproduzível de conversões](../tests/audit-trading-conversions.mjs) expandiu 199 tags em 1.646 receitas e alcançou 82 itens de compra nos seis estados de Hero. Ajustes em Bone e Magma Cream eliminaram os resultados inesperados do teste. Restam as rotas fora desse modelo e os testes integrados com catálogos, modificadores e reposição. Após balancear as farms de Iron Golem e de piglins para ouro, recalibrar preços e lotes de Iron Ingot, Gold Ingot, suas pepitas e ofertas de equipamento afetadas. A revisão fica para depois da conclusão da etapa de Trading. Usar a produção observada com os drops finais do Iota e rodar novamente a auditoria de revenda sob Hero, inclusive nas conversões entre lingotes e pepitas.
 
 ## Implementação do comércio
 
-### C01 — Compra de equipamentos encantados
-
-**Status:** Concluída.
-
-Validação experimental concluída. Integrar após decidir os [contratos atuais](trading_design_directions.md#enchanted-equipment-purchases).
-
 ### C02 — Atualização dos catálogos e previews
 
-**Status:** A fazer.
+**Status:** Em andamento.
 
-Reaberta para o redesenho. Os catálogos e previews antigos ficam como evidência. Atualizar após fechar as novas tabelas e a economia.
+C02 iniciada com o [catálogo do Toolsmith](trading_toolsmith_catalog.json) e seu [preview](trading_toolsmith_preview.html), gerados a partir da tabela validada e das cotações candidatas. O [Armorer](trading_armorer_preview.html) e o [Weaponsmith](trading_weaponsmith_preview.html) também já têm catálogo e preview. As cotações de ferro e ouro seguem provisórias em E03. As [13 profissões](trading_catalog_previews.html) têm catálogos JSON e previews com os grupos, regras e cotações candidatas. Foram feitas 9.954 comparações de revenda direta com Hero desligado e nos níveis I–V. O preview inclui 98 exemplos de encantamentos. Os oito mapas foram gerados com coordenadas de estruturas reais em Java 1.21.11. Foram aprovados os pesos de 50/50 do Mason, os critérios de compra de equipamento do Butcher e do Fisherman e a vaga pendente quando nenhum destino elegível de mapa for localizado. O Leatherworker compra uma peça de armadura de couro de jogador em Journeyman, sem encantamentos e com durabilidade cheia. Na venda de Journeyman, Leather e Rabbit Hide têm peso 2 cada e o grupo de tintas tem peso 1. Os mapas já são resolvidos e publicados no Cartographer experimental. Faltam a ativação de produção e as validações integradas. Os catálogos históricos permanecem arquivados.
 
 ### C03 — Identidade e evolução do villager
 
-**Status:** A fazer.
+**Status:** Adiada.
 
-Concluir a [identidade e o plano de ofertas](trading_design_directions.md#identity-and-offer-state). Ver [escopo do protótipo](../../../modules/experimental/trades/readme.md).
+O protótipo publicou em jogo um plano injetado de Toolsmith e liberou Apprentice com 10 XP comercial, mantendo a oferta anterior e o nome personalizado. O [sorteador](../../../tools/trading-offer-plan.mjs) gerou 1.300 planos de teste para as 13 profissões, com regras de histórico e variantes. As prévias incluem um exemplo de carreira. A integração experimental do Toolsmith agora sorteia e persiste um de 16 planos do catálogo atual no primeiro vínculo. Um teste nativo confirmou a compra de Flint, o crédito de XP, a promoção após fechar o menu, a persistência após reload e a reposição com posto de trabalho. O recorte usa compras de materiais. O protótipo foi ampliado a 12 profissões e 124 planos de teste. Em jogo, as 12 publicaram as quantidades previstas em Novice e Master e conservaram os planos após reload. O Cartographer agora entra no protótipo, totalizando 13 profissões e 132 planos de teste. O [teste nativo do Cartographer](../tests/native-cartographer-plan.mjs) confirmou mapas com destinos distintos, persistência após reload e três vagas pendentes quando nenhum destino elegível foi localizado. Os planos de teste agora incluem compras de equipamento. O [teste nativo](../tests/native-current-equipment-trades.mjs) validou oito casos de durabilidade, contratos sem encantamentos e Básicos I–II com efeitos adicionais. O teste também confirmou que um segundo jogador não abre o mesmo aldeão ocupado, que um marcador antigo é recalculado após alteração do item com o menu aberto e que um item largado é transferido sem os marcadores temporários. A suíte de qualificação passou em 12 cenários, incluindo dois jogadores com menus simultâneos em aldeões diferentes, um aceito e outro recusado sem interferência. Itens com componentes de terceiros nos campos reservados do protótipo foram preservados e recusados. No protótipo atual, identidades acima de 64 agora registram uso, estoque e XP por aldeão a partir das ofertas nativas. O [teste com IDs 100 e 101](../tests/native-trading-high-resident.mjs) confirmou trocas simultâneas, correção de uma redução externa de usos e reposição independente. Acima de 64, o protótipo ainda não atribui XP por jogador. A leitura de ofertas agora ignora listas iguais e distribui checagens de aldeões distantes. O [benchmark de 64 Masters](../tests/benchmark-trading-poll.mjs) registrou medianas de 31,3 ms por tick com o jogador distante e 39,8 ms com o jogador perto do grupo. O Cartographer agora processa no máximo um destino por tick do servidor. Os testes nativos confirmaram a seleção de destinos distintos e a preservação após reload e reposição. O sorteio em jogo por oferta foi incluído no ZIP de teste. A busca em terreno ainda não explorado e os casos de mudanças de estoque entre ticks ficam para a próxima versão. Ver [escopo do protótipo](../../../modules/experimental/trades/readme.md).
 
 ### C04 — Reposição de estoque
 
-**Status:** A fazer.
+**Status:** Em andamento.
 
-Implementar e validar [reposição, trabalho e sono](trading_design_directions.md#working-price-and-stock-calibration).
+A reposição experimental agora percorre a lista do plano do aldeão. O teste nativo confirmou o limite de 30 minutos com crédito de sono, a exigência de posto de trabalho e a preservação de encantamentos e demanda. A reposição verifica o bloco da profissão entre os 13 postos. No Cartographer, um Stonecutter impediu a reposição e a Cartography Table correta liberou o estoque sem trocar os mapas. Ainda falta verificar sono real com World ligado e desligado e a coexistência com a reposição vanilla. Revisar a duração do reestoque depois de concluir os testes da etapa.
 
 ### C05 — Implementação regional
 
-**Status:** A fazer.
+**Status:** Adiada.
 
-Implementar e validar a camada regional.
+Comércio regional fora da etapa atual. Retomar separadamente quando priorizado.
+
+### ZIP de teste — Java 1.21.11
+
+O [ZIP de teste](../../../dist/iota_trading_test_mc1.21.11.zip) contém o sorteio nativo das 13 profissões, com candidatos por vaga, histórico, preços provisórios e variantes de encantamento. O comando `/function iota_trades:production/test_spawn` cria um aldeão novo para teste. O teste em mundo isolado confirmou o vínculo natural a um posto e quatro ofertas de Novice. Aldeões existentes e sem a tag de teste preservam o estado.
+
+Validado em Java 1.21.11 a partir do ZIP. O Toolsmith sorteou oito planos distintos e preservou os oito após reload. O aldeão antigo manteve ofertas, XP e nome. O Cartographer manteve os mapas após reload e reposição, e deixou três vagas pendentes no End. O exame das tabelas compiladas completou 20 mil planos de amostra sem uma vaga vazia fora da exceção de mapas.
+
+Para a próxima versão ficam a revisão de preços de ferro e ouro após o balanceamento das farms, a revisão do reestoque e o desempenho da busca do Cartographer. Comércio regional segue adiado.
 
 ## Equipamentos Broken e reparo
 
@@ -235,93 +77,3 @@ Validar a retirada de armadura e o inventário cheio no [checklist de Broken](..
 **Status:** A validar.
 
 Executar o [checklist de Broken](../../release_checklist.md#broken-state-fixture-regression) na versão integrada.
-
-### B04 — Reparo completo com um material
-
-**Status:** Concluída.
-
-A pesquisa confirmou que a bigorna repara até 25% por material. Um protótipo na Smithing Table conseguiu reparar tudo com uma unidade e preservar os dados. Essa alternativa não foi adotada como regra do pack nem muda a bigorna.
-
-## Maldições e loot
-
-### V01 — Remoção de maldições
-
-**Status:** Concluída.
-
-Testes nativos concluídos no escopo registrado. Ver a [regra preparada para 1.0.35](../../design_directions.md#curse-suppression--staged-for-1035).
-
-### V02 — Drops de ferro e ouro
-
-**Status:** Concluída.
-
-Amostragem nativa concluída. Ver [drops preparados](../../design_directions.md#staged-metal-drops--not-yet-packaged) e [escopo dos testes](../../release_checklist.md#automated-research-evidence--2026-11-20).
-
-### L01 — Revisão das fontes de loot
-
-**Status:** Concluída.
-
-A primeira revisão das tabelas de loot foi feita. A proposta preserva fontes naturais de equipamentos e livros, evita vender materiais de chefes e mantém rotas especiais de encantamento. Não foram aplicadas novas reduções de loot nessa revisão.
-
-## Documentação e publicação
-
-### D01 — Consolidação do design de Trading
-
-**Status:** Concluída.
-
-Regras vigentes, propostas e histórico foram consolidados. Os geradores serão alinhados após fechar os catálogos, em C02.
-
-### D02 — Verificações para publicação
-
-**Status:** A validar.
-
-Falta concluir a verificação dos arquivos e das referências entre funções. O guia deve distinguir o que os testes automáticos comprovam do que precisa ser observado dentro do Minecraft.
-
-### D03 — Geração dos ZIPs
-
-**Status:** Adiada.
-
-Os ZIPs finais serão gerados depois das verificações necessárias. Ainda não foi publicado um novo pacote reunindo todas essas mudanças.
-
-### D04 — Revisão dos documentos
-
-**Status:** Concluída.
-
-A revisão editorial dos documentos selecionados foi concluída: informações antigas foram identificadas, regras atuais esclarecidas e links corrigidos. Dados brutos e backups ficaram fora da revisão. Isso não substitui os testes do datapack.
-
-### D05 — Encantamentos dos artesãos
-
-**Status:** Aguardando decisão.
-
-A classificação, a progressão de quantidade e potência e os cinco catálogos de artesãos foram aprovados. Restam as decisões sobre encantamentos mistos nas compras, o limite de um Tesouro por item e as armaduras de animais encantadas, condicionadas ao teste funcional. A calibração de Mending segue em aberto. A atualização do catálogo gerado segue em C02.
-
-### D06 — Organização das pastas
-
-**Status:** Concluída.
-
-Concluída conforme confirmação do usuário em 21/11/2026. Drafts, pesquisas e experimentos estão em docs/discovery; os guias de testes e changelog, na raiz de docs; e as dependências, em vendor. A conferência dos caminhos não permanece como pendência desta tarefa.
-
-### E06 — Classificação dos encantamentos
-
-**Status:** Concluída.
-
-Ver a [classificação aprovada](../../design_directions.md#shared-enchantment-classification). Aplicação aos artesãos em D05.
-
-## Qualidade de vida e pets
-
-### Q01 — Proteção de blocos contra mobs
-
-**Status:** A fazer.
-
-Impedir Endermen de retirar blocos e Creepers de destruir blocos ao explodir. A solução deve preservar os outros comportamentos dos mobs; desligar mobGriefing para tudo pode afetar sistemas que queremos manter.
-
-### Q02 — Proteção dos pets
-
-**Status:** Transferida para ideias futuras.
-
-Consultar [F-029 — Friendly fire protection for pets and villagers](../../future_directions.md#f-029--friendly-fire-protection-for-pets-and-villagers).
-
-### Q03 — Chamada de pets distantes
-
-**Status:** Transferida para ideias futuras.
-
-Consultar [F-036 — Call distant pets](../../future_directions.md#f-036--call-distant-pets).

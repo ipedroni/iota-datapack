@@ -1,0 +1,2786 @@
+{
+  "version": "1.21.11",
+  "profession": "minecraft:armorer",
+  "source": "docs/discovery/drafts/trading_profession_catalog_draft.md#armorer",
+  "status": "candidate pricing and offer pools for C02",
+  "sharedRules": {
+    "discounts": "First-input Hero rounding. Prices and stock remain subject to integration checks.",
+    "enchantmentStages": {
+      "Journeyman": {
+        "count": [
+          1,
+          2
+        ],
+        "potency": "low",
+        "categories": [
+          "Basic",
+          "Situational"
+        ]
+      },
+      "Expert": {
+        "count": [
+          2,
+          4
+        ],
+        "potency": "medium",
+        "categories": [
+          "Basic",
+          "Advanced",
+          "Situational"
+        ]
+      },
+      "Master": {
+        "count": [
+          2,
+          4
+        ],
+        "potency": "high",
+        "categories": [
+          "Basic",
+          "Advanced",
+          "Treasure"
+        ],
+        "situationalMayAccompany": true,
+        "maxTreasure": 1
+      }
+    },
+    "purchaseHistory": "Exclude prior purchase options through Expert. Master excludes the Expert option.",
+    "playerArmor": "Swift Sneak on leggings and Soul Speed on boots from Journeyman, within stage potency."
+  },
+  "stages": [
+    {
+      "name": "Novice",
+      "sales": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:copper_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 27
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 14
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 41
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 36
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_boots",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_boots",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ],
+          "distinctBy": "body slot"
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:coal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:coal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:charcoal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:charcoal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:copper_ingot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_ingot",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 17
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 4
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_ingot",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 62
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apprentice",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:copper_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 27
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 14
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 41
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 36
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_boots",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_boots",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ],
+          "exclude": "exact Novice piece; the same body slot may repeat in a different material"
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:leather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:leather",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:coal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:coal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:charcoal",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:charcoal",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 9
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:copper_ingot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_ingot",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 17
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 4
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_ingot",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 62
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 4
+                }
+              ]
+            }
+          ],
+          "exclude": "options selected at Novice"
+        }
+      ]
+    },
+    {
+      "name": "Journeyman",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:copper_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 10
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:iron_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 27
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:blast_protection": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 29
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:golden_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 49
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:respiration": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 50
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:copper_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 14
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:projectile_protection": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:iron_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 41
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:blast_protection": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 42
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:golden_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 1,
+                        "minecraft:protection": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 4
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 7
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:copper_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 1,
+                        "minecraft:protection": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:iron_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 36
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:swift_sneak": 1,
+                        "minecraft:fire_protection": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 38
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:golden_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:protection": 2,
+                        "minecraft:swift_sneak": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 5
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 7
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:copper_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_boots",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:fire_protection": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 10
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:iron_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_boots",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:projectile_protection": 1,
+                        "minecraft:depth_strider": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 25
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:golden_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 41
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_boots",
+                    "count": 1
+                  },
+                  "enchantments": "few low-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:protection": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 43
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:copper_ingot",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 21
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_ingot",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 4
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_ingot",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:gold_ingot",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:gold_ingot",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:iron_ingot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_ingot",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 62
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 4
+                },
+                {
+                  "item": "minecraft:gold_ingot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gold_ingot",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald_block",
+                    "count": 27
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:copper_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 12
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 6
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 18
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 10
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ],
+          "exclude": "options selected before Journeyman"
+        }
+      ]
+    },
+    {
+      "name": "Expert",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:iron_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 27
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 2,
+                        "minecraft:projectile_protection": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 31
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:golden_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 49
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 2,
+                        "minecraft:projectile_protection": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 54
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:diamond_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 2,
+                        "minecraft:thorns": 2,
+                        "minecraft:projectile_protection": 3,
+                        "minecraft:respiration": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 4
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 10
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:iron_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 41
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:thorns": 2,
+                        "minecraft:fire_protection": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 46
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:golden_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:thorns": 2,
+                        "minecraft:blast_protection": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 7
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 7
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:diamond_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 1
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 15
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 2,
+                        "minecraft:protection": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 6
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:iron_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 36
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:swift_sneak": 2,
+                        "minecraft:thorns": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 40
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:golden_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 2,
+                        "minecraft:swift_sneak": 2,
+                        "minecraft:thorns": 2,
+                        "minecraft:blast_protection": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 2
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:diamond_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 13
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 2,
+                        "minecraft:thorns": 2,
+                        "minecraft:fire_protection": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 9
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 13
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:iron_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 23
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_boots",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:thorns": 2,
+                        "minecraft:blast_protection": 2,
+                        "minecraft:soul_speed": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 29
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:golden_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 41
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_boots",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:thorns": 2,
+                        "minecraft:blast_protection": 3,
+                        "minecraft:soul_speed": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 48
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:diamond_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_boots",
+                    "count": 1
+                  },
+                  "enchantments": "some medium-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:thorns": 2,
+                        "minecraft:projectile_protection": 2,
+                        "minecraft:depth_strider": 2,
+                        "minecraft:soul_speed": 2
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 5
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 8
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:copper_horse_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_horse_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:copper_nautilus_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:copper_nautilus_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_horse_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 17
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_horse_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_nautilus_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 17
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:iron_nautilus_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gold_ingot",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald_block",
+                    "count": 27
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:diamond",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:diamond",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:iron_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 12
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:golden_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:golden_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 22
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 18
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:golden_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:golden_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 34
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 16
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:golden_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:golden_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 30
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 10
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:golden_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:golden_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 18
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ],
+          "exclude": "options selected before Expert"
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "chance": 5,
+              "candidates": [
+                {
+                  "item": "minecraft:netherite_scrap",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:netherite_scrap",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 1
+                }
+              ]
+            },
+            {
+              "chance": 15,
+              "candidates": [
+                {
+                  "item": "minecraft:diamond",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 34
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 1
+                }
+              ]
+            },
+            {
+              "chance": 56,
+              "materialChances": {
+                "diamond": 95,
+                "netherite": 5
+              },
+              "candidates": [
+                {
+                  "item": "minecraft:diamond_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 4
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:thorns": 3,
+                        "minecraft:fire_protection": 4
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 2
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 10
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:netherite_helmet",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 54
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:netherite_helmet",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:thorns": 3,
+                        "minecraft:projectile_protection": 3,
+                        "minecraft:respiration": 3,
+                        "minecraft:mending": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 1
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 56
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:diamond_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 1
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 15
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:thorns": 3,
+                        "minecraft:mending": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 9
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:netherite_chestplate",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 1
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 60
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:netherite_chestplate",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 3,
+                        "minecraft:protection": 4
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 8
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 60
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:diamond_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 13
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:blast_protection": 4,
+                        "minecraft:mending": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 2
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:netherite_leggings",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 58
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:netherite_leggings",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 3,
+                        "minecraft:mending": 1
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 1
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 59
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:diamond_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_boots",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:protection": 3,
+                        "minecraft:soul_speed": 3,
+                        "minecraft:feather_falling": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 1
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 9
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "item": "minecraft:netherite_boots",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 52
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:netherite_boots",
+                    "count": 1
+                  },
+                  "enchantments": "some high-potency enchantments",
+                  "usesPerRefill": 2,
+                  "price": "minimum before enchantment premium",
+                  "perLevelPremium": 1,
+                  "treasurePremium": 4,
+                  "enchantmentExamples": [
+                    {
+                      "enchantments": {
+                        "minecraft:unbreaking": 3,
+                        "minecraft:soul_speed": 3
+                      },
+                      "inputs": [
+                        {
+                          "item": "minecraft:emerald",
+                          "count": 3
+                        },
+                        {
+                          "item": "minecraft:emerald_block",
+                          "count": 53
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "chance": 12,
+              "candidates": [
+                {
+                  "item": "minecraft:golden_horse_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 26
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_horse_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:diamond_horse_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 11
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_horse_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            },
+            {
+              "chance": 12,
+              "candidates": [
+                {
+                  "item": "minecraft:golden_nautilus_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 26
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_nautilus_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:diamond_nautilus_armor",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 11
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:diamond_nautilus_armor",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:gold_ingot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gold_ingot",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald_block",
+                    "count": 27
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:diamond",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:diamond",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:iron_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 12
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:golden_helmet",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:golden_helmet",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 22
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 18
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:golden_chestplate",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:golden_chestplate",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 34
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 16
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:golden_leggings",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:golden_leggings",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 30
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:iron_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 10
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                },
+                {
+                  "item": "minecraft:golden_boots",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:golden_boots",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 18
+                  },
+                  "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+                  "usesPerRefill": 2
+                }
+              ]
+            }
+          ],
+          "exclude": "contract selected at Expert"
+        }
+      ]
+    }
+  ],
+  "examplePlan": {
+    "profession": "minecraft:armorer",
+    "villagerType": "plains",
+    "offers": [
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:copper_leggings",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 12
+            }
+          ],
+          "output": {
+            "item": "minecraft:copper_leggings",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 2
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:iron_helmet",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 27
+            }
+          ],
+          "output": {
+            "item": "minecraft:iron_helmet",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 2
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:charcoal",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:charcoal",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 9
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:copper_ingot",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:copper_ingot",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 17
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 4
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:iron_leggings",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 36
+            }
+          ],
+          "output": {
+            "item": "minecraft:iron_leggings",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 2
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:iron_ingot",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:iron_ingot",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 62
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 4
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:iron_ingot",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            },
+            {
+              "item": "minecraft:emerald_block",
+              "count": 4
+            }
+          ],
+          "output": {
+            "item": "minecraft:iron_ingot",
+            "count": 8
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 2
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:iron_helmet",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:iron_helmet",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 12
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 2
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:iron_helmet",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:iron_helmet",
+            "count": 1,
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 2,
+                "minecraft:blast_protection": 2,
+                "minecraft:aqua_affinity": 1
+              }
+            }
+          },
+          "enchantments": "some medium-potency enchantments",
+          "usesPerRefill": 2,
+          "price": "minimum before enchantment premium",
+          "perLevelPremium": 1,
+          "treasurePremium": 4
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:diamond",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:diamond",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 15
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:netherite_scrap",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            },
+            {
+              "item": "minecraft:emerald_block",
+              "count": 7
+            }
+          ],
+          "output": {
+            "item": "minecraft:netherite_scrap",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": 1
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:iron_leggings",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:iron_leggings",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 16
+          },
+          "enchantments": "optional low-potency Basic, additional effects accepted at the same payout",
+          "usesPerRefill": 2
+        }
+      }
+    ]
+  }
+}

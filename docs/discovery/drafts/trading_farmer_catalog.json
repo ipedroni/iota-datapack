@@ -1,0 +1,1854 @@
+{
+  "version": "1.21.11",
+  "profession": "minecraft:farmer",
+  "source": "docs/discovery/drafts/trading_profession_catalog_draft.md#farmer",
+  "status": "candidate pricing and offer pools for C02",
+  "sharedRules": {
+    "history": "Exclude previous exact offers in the same direction"
+  },
+  "stages": [
+    {
+      "name": "Novice",
+      "sales": [
+        {
+          "draws": 4,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:wheat_seeds",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 3
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:wheat_seeds",
+                    "count": 32
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:beetroot_seeds",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 2
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:beetroot_seeds",
+                    "count": 32
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:wheat",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:wheat",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:apple",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 18
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:apple",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:carrot",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:carrot",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:potato",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:potato",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "common_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:oak_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:oak_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:birch_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:birch_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:spruce_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:spruce_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "rare_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:acacia_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:acacia_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:jungle_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:jungle_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:dark_oak_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:dark_oak_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:apple",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:apple",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:wheat",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:wheat",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:beetroot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:beetroot",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:carrot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:carrot",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:potato",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:potato",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:bread",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bread",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pumpkin_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pumpkin_seeds",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:melon_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:melon_seeds",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "rare_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:acacia_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:acacia_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:jungle_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:jungle_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:dark_oak_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:dark_oak_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apprentice",
+      "sales": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:wheat",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 9
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:wheat",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:apple",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 18
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:apple",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:carrot",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:carrot",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:potato",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:potato",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "common_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:oak_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:oak_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:birch_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:birch_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:spruce_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 6
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:spruce_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "rare_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:acacia_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:acacia_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:jungle_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:jungle_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:dark_oak_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 10
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:dark_oak_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:apple",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:apple",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:wheat",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:wheat",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:beetroot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:beetroot",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:carrot",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:carrot",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:potato",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:potato",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:bread",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:bread",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pumpkin_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pumpkin_seeds",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:melon_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:melon_seeds",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "rare_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:acacia_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:acacia_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:jungle_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:jungle_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:dark_oak_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:dark_oak_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Journeyman",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:pumpkin_seeds",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pumpkin_seeds",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:melon_seeds",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:melon_seeds",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:honey_bottle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:honey_bottle",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cocoa_beans",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cocoa_beans",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pitcher_pod",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pitcher_pod",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "treasure_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:cherry_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cherry_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pale_oak_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pale_oak_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:mangrove_propagule",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:mangrove_propagule",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:pumpkin_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pumpkin_seeds",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:melon_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:melon_seeds",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cocoa_beans",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cocoa_beans",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:hay_block",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:hay_block",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 17
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "treasure_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:cherry_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cherry_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pale_oak_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pale_oak_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:mangrove_propagule",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:mangrove_propagule",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expert",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:pumpkin_seeds",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pumpkin_seeds",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:melon_seeds",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:melon_seeds",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:honey_bottle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:honey_bottle",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cocoa_beans",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cocoa_beans",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pitcher_pod",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pitcher_pod",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "treasure_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:cherry_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:cherry_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pale_oak_sapling",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:pale_oak_sapling",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:mangrove_propagule",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:mangrove_propagule",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:hay_block",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:hay_block",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 17
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:cake",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cake",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 2
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pumpkin_pie",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pumpkin_pie",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pitcher_pod",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pitcher_pod",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:torchflower_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:torchflower_seeds",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "family": "treasure_sapling",
+              "candidates": [
+                {
+                  "item": "minecraft:cherry_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cherry_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pale_oak_sapling",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pale_oak_sapling",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:mangrove_propagule",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:mangrove_propagule",
+                      "count": 8
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "chance": 5,
+              "candidates": [
+                {
+                  "item": "minecraft:sniffer_egg",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 5
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:sniffer_egg",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "chance": 95,
+              "candidates": [
+                {
+                  "item": "minecraft:golden_apple",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 8
+                    },
+                    {
+                      "item": "minecraft:emerald_block",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_apple",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:golden_carrot",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:golden_carrot",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:honey_bottle",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:honey_bottle",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:torchflower_seeds",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:torchflower_seeds",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:cake",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:cake",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 2
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pumpkin_pie",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pumpkin_pie",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:pitcher_pod",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:pitcher_pod",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:torchflower_seeds",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:torchflower_seeds",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examplePlan": {
+    "profession": "minecraft:farmer",
+    "villagerType": "plains",
+    "offers": [
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:oak_sapling",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 6
+            }
+          ],
+          "output": {
+            "item": "minecraft:oak_sapling",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:spruce_sapling",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 6
+            }
+          ],
+          "output": {
+            "item": "minecraft:spruce_sapling",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:carrot",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            }
+          ],
+          "output": {
+            "item": "minecraft:carrot",
+            "count": 16
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:birch_sapling",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 6
+            }
+          ],
+          "output": {
+            "item": "minecraft:birch_sapling",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:potato",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:potato",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:carrot",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:carrot",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:apple",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 18
+            }
+          ],
+          "output": {
+            "item": "minecraft:apple",
+            "count": 8
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:wheat",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 9
+            }
+          ],
+          "output": {
+            "item": "minecraft:wheat",
+            "count": 16
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:bread",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:bread",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 13
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:apple",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:apple",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 15
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:melon_seeds",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 5
+            }
+          ],
+          "output": {
+            "item": "minecraft:melon_seeds",
+            "count": 16
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:hay_block",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:hay_block",
+              "count": 16
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 17
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:honey_bottle",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 12
+            }
+          ],
+          "output": {
+            "item": "minecraft:honey_bottle",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:pale_oak_sapling",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:pale_oak_sapling",
+              "count": 8
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 7
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:torchflower_seeds",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 16
+            }
+          ],
+          "output": {
+            "item": "minecraft:torchflower_seeds",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:cake",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:cake",
+              "count": 1
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 2
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      }
+    ]
+  }
+}

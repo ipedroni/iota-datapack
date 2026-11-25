@@ -1,6 +1,8 @@
 $execute unless data storage iota_trades:templates $(profession)_$(region).p$(draw) run return 0
 $data modify storage iota_trades:residents r$(id).rolled set from storage iota_trades:templates $(profession)_$(region).p$(draw).rolled
 $data modify storage iota_trades:residents r$(id).order set from storage iota_trades:templates $(profession)_$(region).p$(draw).order
+$execute if data storage iota_trades:templates $(profession)_$(region).p$(draw).sale_group run data modify storage iota_trades:residents r$(id).sale_group set from storage iota_trades:templates $(profession)_$(region).p$(draw).sale_group
+$execute if data storage iota_trades:templates $(profession)_$(region).p$(draw).map_slots run function iota_trades:catalog/maps/init {id:$(id),template:"$(profession)_$(region).p$(draw)"}
 $data modify storage iota_trades:residents r$(id).region set value "$(region)"
 $data modify storage iota_trades:residents r$(id).anchor set from storage iota_trades:scratch init.job
 $data modify storage iota_trades:residents r$(id).original_offers set from entity @s Offers

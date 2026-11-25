@@ -1,3 +1,4 @@
+$execute if score #new_only it_identity_tmp matches 1 unless entity @e[type=minecraft:villager,tag=iota_trades_production_test,tag=iota_trades_id.$(id),limit=1] run return 0
 $data modify storage iota_trades:events last set value {merchant:$(id),kind:"$(kind)"}
 data modify storage iota_trades:events last.player set from entity @s UUID
 $execute as @e[type=minecraft:villager,tag=iota_trades_id.$(id),limit=1] store result storage iota_trades:events last.native_xp int 1 run data get entity @s Xp

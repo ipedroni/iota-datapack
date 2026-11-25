@@ -5,6 +5,7 @@
     "#iota_trades_qual:weapons",
     "#iota_trades_qual:bow",
     "#iota_trades_qual:crossbow",
-    "#iota_trades_qual:fishing"
+    "#iota_trades_qual:fishing",
+    "minecraft:shears"
   ]
 }

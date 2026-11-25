@@ -13,15 +13,15 @@ See the [shared Expert ingot alternative and stock calibration](trading_design_d
 | --- | --- | --- |
 | Novice | Two Copper/Iron pieces for different body slots | Candidate: one of Coal/Charcoal and one of Copper/Iron Ingots |
 | Apprentice | One unenchanted Copper/Iron piece. A Novice body slot may repeat in a different material. | Leather or one material skipped at Novice |
-| Journeyman | One Copper, Iron or Gold piece with a few low-potency enchantments | Candidate: Iron/Gold Ingots or one unenchanted Copper/Iron piece. Exclude Iron Ingots if selected at Novice or Apprentice. |
-| Expert | One Iron, Gold or Diamond piece with some medium-potency enchantments, or the shared ingot alternative | Candidate: Gold Ingots, Diamonds or one Iron/Gold piece, with optional low-potency Basic enchantments |
-| Master | One Diamond or Netherite piece with some high-potency enchantments. Enchanted Iron, Gold or Diamond Horse Armor is a candidate pending functional testing. | Same pool as Expert, excluding the option selected at Expert |
+| Journeyman | One sale from a Copper, Iron or Gold player armor piece with a few low-potency enchantments, Copper Ingots, Iron Ingots or Gold Ingots | Candidate: Iron/Gold Ingots or one unenchanted Copper/Iron piece. Exclude Iron Ingots if selected at Novice or Apprentice. |
+| Expert | One sale from an Iron, Gold or Diamond player armor piece with some medium-potency enchantments, or one unenchanted Copper or Iron Nautilus Armor or Horse Armor | Candidate: Gold Ingots, Diamonds or one Iron/Gold piece, with optional low-potency Basic enchantments |
+| Master | One sale using the [shared Master smith draw](trading_design_directions.md#master-smith-sale-draw): Netherite Scrap, Diamond, a Diamond or Netherite player armor piece with some high-potency enchantments, or one unenchanted Golden or Diamond Nautilus Armor or Horse Armor | Same pool as Expert, excluding the option selected at Expert |
 
 All four body slots are eligible for the Journeyman sale, regardless of the earlier sale draws.
 
 **Approved purchase rule:** Through Expert, exclude purchase options already selected for that Armorer at any earlier level. Iron Ingots selected at Novice or Apprentice are excluded at Journeyman. Gold Ingots selected at Journeyman are excluded at Expert. Master uses the exclusion specified in its row.
 
-The Armorer follows the [shared enchantment progression](trading_design_directions.md#artisan-equipment-enchantments). Swift Sneak (Basic) is eligible on leggings and Soul Speed (Situational) is eligible on boots starting at Journeyman, within the potency band for the stage. Horse Armor requires functional validation before it can enter the pool.
+The Armorer follows the [shared enchantment progression](trading_design_directions.md#artisan-equipment-enchantments) for player armor. Swift Sneak (Basic) is eligible on leggings and Soul Speed (Situational) is eligible on boots starting at Journeyman, within the potency band for the stage. Metal Horse Armor and Nautilus Armor enter the Expert and Master draws without enchantments.
 
 
 
@@ -34,11 +34,11 @@ The Armorer follows the [shared enchantment progression](trading_design_directio
 | Apprentice | One unenchanted Copper/Iron Sword or Spear in a different material from the Novice offer in that family | One draw from the remaining fuel, Copper Ingots and Iron Ingots |
 | Journeyman | One Copper, Iron or Gold Sword or Spear with a few low-potency enchantments | Iron/Gold Ingots or one unenchanted Copper/Iron Sword or Spear. Exclude Iron Ingots if selected at Apprentice. |
 | Expert | One Iron, Gold or Diamond Sword or Spear with some medium-potency enchantments, or the shared ingot alternative | Gold Ingots, Diamonds or one Iron/Gold Sword or Spear, with optional low-potency Basic enchantments |
-| Master | One Diamond or Netherite Sword or Spear with some high-potency enchantments | Same pool as Expert, excluding only the contract selected at Expert |
+| Master | One sale using the [shared Master smith draw](trading_design_directions.md#master-smith-sale-draw): Netherite Scrap, Diamond or one Diamond or Netherite Sword or Spear with some high-potency enchantments | Same pool as Expert, excluding only the contract selected at Expert |
 
 Swords and Spears have equal weight when both families are eligible. Buy equipment only at full durability. A Master purchase may still use the same family or material as the Expert purchase if the contract differs. Apply the shared enchantment progression to equipment sales.
 
-Preserve native incompatibilities such as Sharpness, Smite and Bane of Arthropods. The Master Sword pool has only one eligible Treasure, Mending. Reduce its inclusion chance, with the percentage pending. Apply the same rule to Fletcher crossbows and roll Treasure inclusion separately from selecting the effect.
+Preserve native incompatibilities such as Sharpness, Smite and Bane of Arthropods. The Master Sword pool has only one eligible Treasure, Mending. After selecting a Master sword or Fletcher crossbow for sale, roll once for Mending with a 2.5% chance.
 
 
 
@@ -63,14 +63,16 @@ Bows and Crossbows have equal weight when both are eligible for a weapon sale. A
 | Stage | Sells | Buys |
 | --- | --- | --- |
 | Novice | Two unenchanted Leather armor pieces for different player armor slots | Two of Rotten Flesh, Leather, String and Rabbit Hide |
-| Apprentice | One unenchanted Leather armor piece from a player armor slot not yet offered, one dye of an eligible color or one plain Bundle | One remaining initial material or one dye |
-| Journeyman | One unenchanted Leather armor piece from a player armor slot not yet offered, Leather, Rabbit Hide or one dye of an eligible color not yet offered | Unselected initial materials, eligible equipment or one dye of a color not yet selected for purchase |
-| Expert | One unenchanted Leather Horse Armor or Wolf Armor, Leather, Rabbit Hide or one dyed Bundle | One player leather armor piece at full durability, with optional low-potency Basic enchantments, or one dye of a color not yet selected for purchase |
-| Master | One dye of an eligible color not yet offered, with the Master bonus, or one Leather Horse Armor or Wolf Armor with some high-potency enchantments, subject to functional validation of the enchanted armor | Same pool as Expert, excluding the option selected at Expert. Any dye color must be new to the purchase history. |
+| Apprentice | One unenchanted Leather armor piece from a player armor slot not yet offered, one dye of an eligible color, one plain Bundle or Lead | One remaining initial material or one dye |
+| Journeyman | One unenchanted Leather armor piece from a player armor slot not yet offered, Leather, Rabbit Hide, a dye of an eligible color not yet offered, a plain Bundle or Lead | Unselected initial materials, one unenchanted player leather armor piece at full durability, or one dye of a color not yet selected for purchase |
+| Expert | One unenchanted Leather Horse Armor or Wolf Armor, Leather, Rabbit Hide, Saddle or one common-color Happy Ghast Harness | One player leather armor piece at full durability, with optional low-potency Basic enchantments, or one dye of a color not yet selected for purchase |
+| Master | One dye of an eligible color not yet offered, with the Master bonus, Saddle, one uncommon-color Happy Ghast Harness, or one unenchanted Leather Horse Armor or Wolf Armor | Same pool as Expert, excluding the option selected at Expert. Any dye color must be new to the purchase history. |
 
-At Expert, draw dyed Bundles as one group, then select one color if the group is drawn. Both Bundle options compete for existing sale slots and use the shared sale history.
+Plain Bundles compete for the existing Apprentice and Journeyman sale slots and use the shared sale history.
 
-Player leather armor sells unenchanted. Metal Horse Armor belongs to Armorer. Use one shared sale history per Leatherworker across all levels. Before each draw, filter the level's eligible pool by removing each exact item already selected for sale. A later lot, price or enchantment variant does not make the item eligible again. Each dye color counts as its own item. When dyes are eligible for sale, draw them as one group, then choose from the eligible colors for that level. Prefer Leather and Rabbit Hide over the dye group in pools where they compete, with weights pending. Review the exact purchase contracts for each stage.
+Use the [Shepherd's color groups](#shepherd) for Happy Ghast Harnesses: common colors at Expert and uncommon colors at Master. Draw Harnesses as one group, then choose an eligible color. A Saddle selected at Expert is excluded at Master by the shared sale history.
+
+Player leather armor sells unenchanted. Metal Horse Armor belongs to Armorer. Use one shared sale history per Leatherworker across all levels. Before each draw, filter the level's eligible pool by removing each exact item already selected for sale. A later lot, price or enchantment variant does not make the item eligible again. Each dye color counts as its own item. When dyes are eligible for sale, draw them as one group, then choose from the eligible colors for that level. In the Journeyman sale slot, give Leather and Rabbit Hide weight 2 each and the entire dye group weight 1. Each other eligible option retains weight 1.
 
 The Master dye sale pool is Brown, Green, Blue and Black. Apprentice and Journeyman dye sales use White, Orange, Magenta, Light Blue, Yellow, Lime, Pink, Gray, Light Gray, Cyan, Purple and Red. Earlier offers keep their original terms. Dye purchase draws from Journeyman onward exclude every color already selected for purchase by that Leatherworker, including the Apprentice purchase. When calibrating Master dye sales, include the dye purchases at all levels from Apprentice onward in the cross-merchant resale check.
 
@@ -88,7 +90,7 @@ Enchantment components can be attached to these items. Effects on a horse or wol
 
 ## Other professions — candidates awaiting five-level review
 
-Farmer starts with four sales and two purchases. Fisherman supplies fish and gear and buys inputs or qualified rods. Fish purchases are excluded. Butcher supplies meat and meals. Shepherd starts with a wool sale and can offer textile goods, Paintings and Happy Ghast Harnesses. Librarian offers three or four enchanted books by Master. Cartographer supplies navigation, Cleric supplies expedition and brewing resources, and Mason supplies bulk construction materials and early Flint.
+Farmer starts with four sales and two purchases. Fisherman sells raw fish and aquatic goods and can buy cooked fish at Journeyman. Butcher supplies meat and meals. Shepherd starts with a wool sale and can offer textile goods, Paintings and Happy Ghast Harnesses. Librarian offers three or four enchanted books by Master. Cartographer supplies navigation, Cleric supplies expedition and brewing resources, and Mason supplies bulk construction materials and early Flint.
 
 The tables after Farmer preserve the previous candidates as input for redistribution. The Secret rows identify former special offers for review in Master and carry no current unlock or draw weights.
 
@@ -105,7 +107,7 @@ Keep separate sale and purchase histories for each Farmer. Before each draw, exc
 | Apprentice | Two distinct new sales from Wheat, Apple, Carrot, Potato, a common sapling or a rare sapling | Two distinct new purchases from the Novice pool, excluding the purchases selected at Novice |
 | Journeyman | One new sale from Pumpkin Seeds, Melon Seeds, Honey Bottle, Cocoa Beans, Pitcher Pod or a treasure sapling | One new purchase from Pumpkin Seeds, Melon Seeds, Cocoa Beans, Hay Block or a treasure sapling |
 | Expert | One new sale from Pumpkin Seeds, Melon Seeds, Honey Bottle, Cocoa Beans, Pitcher Pod or a treasure sapling | One new purchase from Hay Block, Cake, Pumpkin Pie, Pitcher Pod, Torchflower Seeds or a treasure sapling |
-| Master | One new sale from Golden Apple, Golden Carrot, Honey Bottle or Torchflower Seeds | One new purchase from Cake, Pumpkin Pie, Pitcher Pod or Torchflower Seeds |
+| Master | One sale: Sniffer Egg (5% chance) or one new item from Golden Apple, Golden Carrot, Honey Bottle or Torchflower Seeds (95% chance) | One new purchase from Cake, Pumpkin Pie, Pitcher Pod or Torchflower Seeds |
 
 Common saplings are Oak, Birch and Spruce. Rare saplings are Acacia, Jungle and Dark Oak. Treasure saplings are Cherry, Pale Oak and Mangrove Propagule. Check for profitable resale between Farmers when calibrating prices and lots for items that can be both bought and sold.
 
@@ -126,24 +128,24 @@ Proposed progression: draw two distinct sales and two distinct purchases at Novi
 | Expert | One new sale from Cooked Chicken, Cooked Mutton or Cooked Rabbit | One new purchase from the Journeyman purchase pool |
 | Master | One new sale from Steak, Cooked Porkchop or Rabbit Stew | One new purchase from the Journeyman purchase pool |
 
-The Iron Axe contract's durability and enchantment eligibility remain open. A Milk Bucket quote includes the bucket consumed by the trade. Check resale paths during calibration, including Leather and Rabbit Hide sold to a Leatherworker and Iron Axes bought from a Toolsmith and sold to a Butcher.
+Buy Iron Axes only at full durability, plain or with a qualifying low-potency Basic enchantment. Accept additional effects on qualifying axes at the same payout. A Milk Bucket quote includes the bucket consumed by the trade. Check resale paths during calibration, including Leather and Rabbit Hide sold to a Leatherworker and Iron Axes bought from a Toolsmith and sold to a Butcher.
 
 
 
 
 ## Fisherman
 
-Fisherman supplies raw and cooked fish and fishing equipment. Fish are sale-only. Following the Butcher progression, cooked food is first eligible at Expert. This proposal uses two distinct sales and two distinct purchases at Novice, then one sale and one purchase at each later level. Exclude exact items already selected in the same direction, including earlier draws at the same level. Identify fishing rod contracts by their item and enchantment conditions.
+Fisherman sells raw fish, fishing equipment and aquatic goods. Cooked Cod and Cooked Salmon are purchase options at Journeyman. Exclude exact items already selected in the same direction, including earlier draws at the same level. Plain and enchanted Fishing Rod offers are distinct contracts.
 
 | Stage | Sells | Buys |
 | --- | --- | --- |
-| Novice | Cod and Salmon | String and Stick |
-| Apprentice | One new sale from Tropical Fish, Pufferfish or an unenchanted Fishing Rod | Coal or Charcoal |
-| Journeyman | One new sale from the Apprentice sale pool or Bucket | The remaining option from Coal or Charcoal, or Glass Bottle |
-| Expert | One new sale from Cooked Cod, Tropical Fish Bucket or Pufferfish Bucket | One new purchase from the Journeyman purchase pool |
-| Master | Cooked Salmon or one Fishing Rod with a high-potency Lure or Luck of the Sea enchantment | One Fishing Rod at full durability with optional low-potency Basic enchantments |
+| Novice | Two sales: one from Bucket, Shears or an unenchanted Fishing Rod, and one from String, raw Cod, raw Salmon, Kelp, Seagrass, Lily Pad or Ink Sac | Two distinct purchases from Stick, String, Kelp, Seagrass, Iron Nugget or Bread |
+| Apprentice | Two new sales: one from each Novice sale pool, excluding the items selected at Novice | Two distinct new purchases from the Novice purchase pool, Bucket, Iron Shovel, Leather Boots or Shears |
+| Journeyman | One new sale: a Fishing Rod with a few low-potency enchantments (25% chance), or one new item from Cod Bucket, Salmon Bucket, Pufferfish Bucket, Tropical Fish Bucket, Prismarine Shard, Prismarine Crystals, Turtle Scute or Nautilus Shell (75% chance) | One new purchase from Iron Nugget, Bread, Beeswax, Glass Bottle, Cooked Cod, Cooked Salmon, Prismarine Shard or Prismarine Crystals |
+| Expert | One new sale from Cod Bucket, Salmon Bucket, Pufferfish Bucket, Tropical Fish Bucket, Axolotl Bucket, Prismarine Shard, Prismarine Crystals, Turtle Egg, Turtle Scute, Nautilus Shell or Heart of the Sea | One new purchase from Turtle Scute, Nautilus Shell, Turtle Egg, Seagrass, Iron Nugget, Bread, Prismarine Shard, Prismarine Crystals or Heart of the Sea |
+| Master | One sale: a Fishing Rod with some high-potency enchantments (25% chance), or one new item from the Expert sale pool excluding Cod Bucket and Salmon Bucket (75% chance) | One new purchase from the Expert purchase pool |
 
-Mending on sold Master rods remains under review.
+The 75% Journeyman item draw and the Expert sale draw use equal weights among eligible items. The low-potency Journeyman rod and high-potency Master rod count as distinct sale contracts. Buy Leather Boots, Iron Shovels and Shears only at full durability, plain or with a qualifying low-potency Basic enchantment. Accept additional effects on qualifying equipment at the same payout.
 
 
 
@@ -210,41 +212,98 @@ Draw Music Discs as one item category in the eligible sale slot. Check same-item
 
 ## Cartographer
 
-Retain navigation focus and useful map destinations, one draw per level. Recovery Compass always one unit; chain repriced coherently. Map service still requires real map generation.
+Recovery Compass sells one unit at a time. Explorer maps must locate actual structures. Keep separate sale and purchase histories so each draw excludes earlier offers in the same direction. Identify explorer maps by their destination type.
+
+### Standby proposal
 
 | Stage | Sells | Buys |
 | --- | --- | --- |
-| Novice | Map OR Compass; Map OR Compass | Paper OR Glass Pane; Glass Pane OR Paper |
+| Novice | Map OR Compass; Map OR Compass | Paper and Feather |
 | Apprentice | Spyglass OR Filled Map -> Village | Ink Sac OR Amethyst Shard |
-| Journeyman | Filled Map -> Shipwreck OR Filled Map -> Ruined Portal | Map OR Compass |
+| Journeyman | Filled Map -> Shipwreck OR Filled Map -> Ruined Portal | Compass |
 | Expert | Filled Map -> Ocean Monument OR Filled Map -> Trial Chambers | Spyglass OR Clock |
-| Master | Filled Map -> Woodland Mansion OR Recovery Compass | Recovery Compass |
-| Secret | Filled Map -> Ancient City | No addition |
+| Master | Filled Map -> Woodland Mansion OR Filled Map -> Ancient City OR Recovery Compass | Recovery Compass |
+
+### Librarian slot proposal
+
+| Stage | Sells | Buys |
+| --- | --- | --- |
+| Novice | Two sales: one Empty Map and one tool drawn with equal odds from Clock or Compass | Two distinct offers from Paper, Ink Sac, Black Dye or Feather |
+| Apprentice | Two sales: the tool left over from Novice, and one map drawn from Village or Shipwreck | One new purchase from the Novice purchase pool |
+| Journeyman | One sale: Spyglass (25% chance) or one new map from Shipwreck, Ruined Portal or Buried Treasure (75% chance) | One new purchase from the Novice purchase pool, Compass, Clock, Amethyst Shard, Copper Nugget, Iron Nugget, Gold Nugget, Redstone Dust, Chorus Fruit or Nether Quartz |
+| Expert | One new sale from an Ocean Monument Map or a Trial Chambers Map | One new purchase from the Journeyman purchase pool |
+| Master | One new sale from a Woodland Mansion Map or an Ancient City Map | One new purchase from the Journeyman purchase pool |
+
+In the standby proposal, calibrate Recovery Compass retail alongside the Echo Shard market. The destination and locator behavior for each explorer map remain subject to validation.
+
+Maps are sale-only, including Empty Maps, regular Filled Maps, Buried Treasure Maps and maps with marked structure destinations.
 
 
 
 
 ## Cleric
 
-Candidate items for the next review, with buy and sell directions still open: Redstone Dust, Lapis Lazuli, Glowstone Dust, Gunpowder (tentative), Sugar, Glow Berries, Lantern, Candle, String, Beeswax, Paper, Feather, Bone, Black Dye, Ink Sac, Potions, Wither Rose, Nether Wart, Blaze Powder, Blaze Rod, Ender Pearl, Eye of Ender, Wither Skeleton Skull and Skeleton Skull.
-
-Reagents and brewing services; Secret only selected Wind Charge/Ghast Tear candidates. No implicit Breeze Rod, Heavy Core or Nether Star offer.
+Keep separate sale and purchase histories. Each draw excludes items selected earlier in the same direction.
 
 | Stage | Sells | Buys |
 | --- | --- | --- |
-| Novice | Redstone OR Lapis Lazuli; Redstone OR Lapis Lazuli | Rotten Flesh OR Nether Wart; Nether Wart OR Rotten Flesh |
-| Apprentice | Glowstone Dust OR Quartz | Glass Bottle OR Red Mushroom OR Brown Mushroom |
-| Journeyman | Experience Bottle OR Ender Pearl | Spider Eye OR Blaze Powder |
-| Expert | Potion [Fire Resistance] OR Potion [Strong Healing] | Magma Cream OR Phantom Membrane |
-| Master | Potion [Slow Falling] OR Potion [Strong Regeneration] | Ghast Tear |
-| Secret | Wind Charge OR Ghast Tear | No addition |
+| Novice | Two distinct sales from Candle, Lantern, Sugar, Gunpowder, Redstone Dust, Spider Eye, Slimeball or Glass Bottle | Two distinct purchases from Rotten Flesh, Bone, Paper, Feather, String, Beeswax, Black Dye or Ink Sac |
+| Apprentice | One new sale from the Novice sale pool | One new purchase from the Novice purchase pool |
+| Journeyman | One new sale from the Novice sale pool | One new purchase from Glass Bottle, Spider Eye, Gunpowder, Redstone Dust or Slimeball |
+| Expert | One new sale from Blaze Powder, Glowstone Dust, Ender Pearl, Nether Wart, Magma Cream or Nether Quartz | One new purchase from Ender Pearl, Nether Quartz, Blaze Powder, Magma Cream or Phantom Membrane |
+| Master | One new sale from Blaze Powder, Glowstone Dust, Ender Pearl, Phantom Membrane, Ghast Tear or Wither Skeleton Skull | One new purchase from Ghast Tear, Eye of Ender, Wither Skeleton Skull or the Expert purchase pool |
+
+Check direct resale and crafting routes during calibration, especially Ender Pearl plus Blaze Powder into Eye of Ender.
 
 
 
 
 ## Mason
 
-Retain bulk builder supply and early Flint. One regional complement can supply omitted palettes; do not turn the Stonecutter into a trade-only item.
+Retain bulk builder supply and early Flint. One regional complement can supply omitted palettes; keep Stonecutter accessible through crafting. The purchase pools focus on dyes and non-block materials.
+
+Use the Farmer's offer counts for every Mason specialty. Novice starts with four sales and two purchases. Apprentice adds two sales and two purchases. Journeyman, Expert and Master each add one sale and one purchase.
+
+Assign one persistent sale group to each Mason before generating its offers: Stonemason or Ceramist. Each has its own starter materials and specialty pool. At Novice, draw two distinct starter materials and two distinct specialty offers. At Apprentice, draw one new starter material and one new specialty offer. Journeyman, Expert and Master each draw one new specialty offer. Exclude items already selected for sale, including earlier draws at the same level. Save the group with the villager's trade identity so level-ups and restocks use the same group. Assign Stonemason and Ceramist with equal 50% chances.
+
+| Sale pool | Items |
+| --- | --- |
+| Stonemason starter materials | Flint, Clay Ball, Clay Block, Sand, Gravel, Brick and Nether Brick |
+| Ceramist starter materials | Clay Ball, Clay Block, Brick, Nether Brick, Flower Pot and Decorated Pot |
+| Stonemason | Stone, Smooth Stone, Sandstone, Bricks, Mud Bricks, Nether Bricks, Polished Andesite, Polished Diorite, Polished Granite, Polished Deepslate, Polished Tuff, Calcite, Smooth Quartz, End Stone, Blackstone, Prismarine, Dark Prismarine and Obsidian |
+| Ceramist | The Terracotta family, Glazed Terracotta, the Glass family, Concrete, Lantern, Soul Lantern, Copper Lantern, Redstone Lamp and the Froglight group |
+
+Stained Glass, colored Terracotta, Glazed Terracotta and Concrete use the same color rarity split as the Shepherd's dyes. Common colors are White, Orange, Magenta, Light Blue, Yellow, Lime, Pink, Gray, Light Gray, Cyan, Purple and Red. Uncommon colors are Brown, Green, Blue and Black. Draw the block family first, then an eligible variant. Include plain Glass in the same family as Stained Glass, and plain Terracotta in the same family as colored Terracotta. The plain variants have no dye rarity. The assignment of color groups to Mason levels remains under review.
+
+End Stone Bricks has no level assignment in the revised groups.
+
+Include lighting in the sale pools. The proposed selection is Lantern, Soul Lantern, Copper Lantern, Redstone Lamp and a Froglight group containing Ochre, Verdant and Pearlescent Froglights. Levels and weights remain under review. Chains and walls are excluded from the sale pools.
+
+Sale groups by level:
+
+| Stage | Stonemason | Ceramist |
+| --- | --- | --- |
+| Novice | Stone, Smooth Stone, Sandstone, Bricks, Mud Bricks or Nether Bricks | Common-color variants of Glass, Terracotta, Glazed Terracotta or Concrete. Plain Glass and Terracotta are also eligible in their respective families. |
+| Apprentice | Novice pool | Novice pool |
+| Journeyman | Polished Andesite, Polished Diorite, Polished Granite, Polished Deepslate, Polished Tuff or Calcite | Uncommon-color Stained Glass, Terracotta, Glazed Terracotta or Concrete |
+| Expert | Journeyman pool | Lantern, Copper Lantern or Redstone Lamp (60% for the group), or one new item from the Journeyman pool (40%) |
+| Master | Smooth Quartz, End Stone, Blackstone, Prismarine, Dark Prismarine or Obsidian | Soul Lantern or one color of Froglight (50% for the group), Lantern, Copper Lantern or Redstone Lamp (35% for the group), or one new item from the Journeyman pool (15%) |
+
+All levels exclude previously selected sale items. A block family can be drawn again if it has an eligible variant that has not been offered.
+
+Purchase pools shared by Stonemason and Ceramist:
+
+| Stage | Buys |
+| --- | --- |
+| Novice | Two distinct purchases from Clay Ball, Wheat, Iron Nugget, Copper Nugget, Gunpowder or a common dye |
+| Apprentice | Two distinct new purchases from the Novice pool |
+| Journeyman | One new purchase from the Novice pool, Nether Quartz, Prismarine Shard, an uncommon dye or a Pottery Sherd |
+| Expert | One new purchase from the Journeyman pool |
+| Master | One new purchase from the Journeyman pool |
+
+Keep a purchase history separate from sales. Group dyes and Pottery Sherds by category when they compete with other goods, then draw an eligible variant not already selected for purchase. Check direct resale and crafting conversions during calibration.
+
+The table below preserves the previous level assignments for reference during the redesign.
 
 | Stage | Sells | Buys |
 | --- | --- | --- |
@@ -257,6 +316,12 @@ Retain bulk builder supply and early Flint. One regional complement can supply o
 
 
 
+
+## Wandering Trader
+
+**Status:** Pending separate review. The current Trading implementation scope covers the 13 validated villager professions. Defer the custom Wandering Trader catalog and its offer counts, purchases, weights, prices and stock.
+
+Candidate sales for later review: Mob Spawn Eggs, Netherite Upgrade Smithing Templates, Wither Skeleton Skull, decorative Player Heads and Enchanted Golden Apple. Eligible mobs, decorative heads and sale conditions remain open.
 
 ## Decision history
 

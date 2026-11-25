@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:efficiency",
+    "minecraft:unbreaking",
+    "minecraft:sharpness",
+    "minecraft:power",
+    "minecraft:protection",
+    "minecraft:quick_charge",
+    "minecraft:lure",
+    "minecraft:swift_sneak"
+  ]
+}

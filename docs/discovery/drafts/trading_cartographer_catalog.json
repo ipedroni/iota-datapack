@@ -1,0 +1,1440 @@
+{
+  "version": "1.21.11",
+  "profession": "minecraft:cartographer",
+  "source": "docs/discovery/drafts/trading_profession_catalog_draft.md#cartographer",
+  "status": "candidate pricing and offer pools for C02",
+  "sharedRules": {
+    "history": "Exclude previous exact offers in the same direction",
+    "mapIdentity": "Destination type",
+    "mapResolution": {
+      "requireLocatedDestination": true,
+      "drawFromLocatedCandidatesOnly": true,
+      "noEligibleDestination": "leave slot pending"
+    }
+  },
+  "stages": [
+    {
+      "name": "Novice",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:map",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 11
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "draws": 1,
+          "weights": "equal",
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:clock",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 37
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:clock",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:compass",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 19
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:compass",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 2,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ink_sac",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ink_sac",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Apprentice",
+      "sales": [
+        {
+          "draws": 1,
+          "exclude": "Novice tool",
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:clock",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 37
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:clock",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:compass",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 19
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:compass",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "village",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/village",
+                  "structure": "#minecraft:village",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "shipwreck",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/shipwreck",
+                  "structure": "#minecraft:shipwreck",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ink_sac",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ink_sac",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Journeyman",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "chance": 25,
+              "candidates": [
+                {
+                  "item": "minecraft:spyglass",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 7
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:spyglass",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            },
+            {
+              "chance": 75,
+              "candidates": [
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "shipwreck",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 12
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/shipwreck",
+                  "structure": "#minecraft:shipwreck",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "ruined_portal",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/ruined_portal",
+                  "structure": "#minecraft:ruined_portal",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "buried_treasure",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/buried_treasure",
+                  "structure": "minecraft:buried_treasure",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ink_sac",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ink_sac",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:compass",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:compass",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:clock",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:clock",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:amethyst_shard",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:amethyst_shard",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:copper_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_nugget",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:iron_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_nugget",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gold_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gold_nugget",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:redstone",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:redstone",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:chorus_fruit",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:chorus_fruit",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:quartz",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:quartz",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Expert",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "ocean_monument",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 24
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/ocean_monument",
+                  "structure": "minecraft:monument",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "trial_chambers",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 24
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/trial_chambers",
+                  "structure": "minecraft:trial_chambers",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ink_sac",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ink_sac",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:compass",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:compass",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:clock",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:clock",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:amethyst_shard",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:amethyst_shard",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:copper_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_nugget",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:iron_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_nugget",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gold_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gold_nugget",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:redstone",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:redstone",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:chorus_fruit",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:chorus_fruit",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:quartz",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:quartz",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master",
+      "sales": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "woodland_mansion",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/woodland_mansion",
+                  "structure": "minecraft:mansion",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:filled_map",
+                  "variant": "ancient_city",
+                  "direction": "sell",
+                  "inputs": [
+                    {
+                      "item": "minecraft:emerald",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:filled_map",
+                    "count": 1
+                  },
+                  "enchantments": "plain",
+                  "resolveDestination": true,
+                  "lootTable": "iota_trades:explorer/ancient_city",
+                  "structure": "minecraft:ancient_city",
+                  "requireComponents": [
+                    "minecraft:map_id",
+                    "minecraft:map_decorations"
+                  ],
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "purchases": [
+        {
+          "draws": 1,
+          "groups": [
+            {
+              "candidates": [
+                {
+                  "item": "minecraft:paper",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:paper",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:ink_sac",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:ink_sac",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:black_dye",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:black_dye",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 15
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:feather",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:feather",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:compass",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:compass",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 8
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:clock",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:clock",
+                      "count": 1
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 16
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:amethyst_shard",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:amethyst_shard",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 4
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:copper_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:copper_nugget",
+                      "count": 64
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 3
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:iron_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:iron_nugget",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:gold_nugget",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:gold_nugget",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 13
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:redstone",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:redstone",
+                      "count": 48
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 5
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:chorus_fruit",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:chorus_fruit",
+                      "count": 16
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                },
+                {
+                  "item": "minecraft:quartz",
+                  "direction": "buy",
+                  "inputs": [
+                    {
+                      "item": "minecraft:quartz",
+                      "count": 32
+                    }
+                  ],
+                  "output": {
+                    "item": "minecraft:emerald",
+                    "count": 7
+                  },
+                  "enchantments": "plain",
+                  "usesPerRefill": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "examplePlan": {
+    "profession": "minecraft:cartographer",
+    "villagerType": "plains",
+    "offers": [
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:map",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 11
+            }
+          ],
+          "output": {
+            "item": "minecraft:map",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:clock",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 37
+            }
+          ],
+          "output": {
+            "item": "minecraft:clock",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:black_dye",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:black_dye",
+              "count": 32
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 15
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Novice",
+        "offer": {
+          "item": "minecraft:feather",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:feather",
+              "count": 48
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:compass",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 19
+            }
+          ],
+          "output": {
+            "item": "minecraft:compass",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Apprentice",
+        "pending": "no eligible destination"
+      },
+      {
+        "stage": "Apprentice",
+        "offer": {
+          "item": "minecraft:paper",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:paper",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 4
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:spyglass",
+          "direction": "sell",
+          "inputs": [
+            {
+              "item": "minecraft:emerald",
+              "count": 7
+            }
+          ],
+          "output": {
+            "item": "minecraft:spyglass",
+            "count": 1
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Journeyman",
+        "offer": {
+          "item": "minecraft:copper_nugget",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:copper_nugget",
+              "count": 64
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 3
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Expert",
+        "pending": "no eligible destination"
+      },
+      {
+        "stage": "Expert",
+        "offer": {
+          "item": "minecraft:chorus_fruit",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:chorus_fruit",
+              "count": 16
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 7
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      },
+      {
+        "stage": "Master",
+        "pending": "no eligible destination"
+      },
+      {
+        "stage": "Master",
+        "offer": {
+          "item": "minecraft:redstone",
+          "direction": "buy",
+          "inputs": [
+            {
+              "item": "minecraft:redstone",
+              "count": 48
+            }
+          ],
+          "output": {
+            "item": "minecraft:emerald",
+            "count": 5
+          },
+          "enchantments": "plain",
+          "usesPerRefill": null
+        }
+      }
+    ]
+  }
+}
